@@ -58,3 +58,5 @@ torchrun --standalone --nproc_per_node=4 --master_port 1235 \
         --model-ema           \
         --model-ema-decay 0.99992
 ```
+## Cite F2HNet
+If you find this repository useful, please give us stars and use the following BibTeX entry for citation.
