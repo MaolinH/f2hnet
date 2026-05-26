@@ -1,0 +1,1503 @@
+(main.py 95): INFO number of params: 29826710 number of FLOPs: 4796409344
+(main.py 161): INFO ########## Train epoch-1 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000509 -train_acc1:0.292 -grad_norm:0.39
+(main.py 179): INFO --> Val results: ♣acc1:1.088 ♣acc5:4.196 ♣loss:6.5228 ♠best_acc1:1.1 ♠best_acc5:4.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.092 ♦ema_acc5:0.520 ♦ema_loss:6.9719 ❤best_ema_acc1:0.1 ❤best_ema_acc5:0.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-2 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001009 -train_acc1:1.012 -grad_norm:0.92
+(main.py 179): INFO --> Val results: ♣acc1:3.290 ♣acc5:10.428 ♣loss:5.9871 ♠best_acc1:3.3 ♠best_acc5:10.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.092 ♦ema_acc5:0.494 ♦ema_loss:6.9603 ❤best_ema_acc1:0.1 ❤best_ema_acc5:0.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-3 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001508 -train_acc1:2.051 -grad_norm:1.10
+(main.py 179): INFO --> Val results: ♣acc1:6.808 ♣acc5:18.806 ♣loss:5.5037 ♠best_acc1:6.8 ♠best_acc5:18.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.098 ♦ema_acc5:0.486 ♦ema_loss:6.9480 ❤best_ema_acc1:0.1 ❤best_ema_acc5:0.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-4 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002008 -train_acc1:3.649 -grad_norm:1.22
+(main.py 179): INFO --> Val results: ♣acc1:11.230 ♣acc5:27.800 ♣loss:5.0029 ♠best_acc1:11.2 ♠best_acc5:27.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.094 ♦ema_acc5:0.486 ♦ema_loss:6.9329 ❤best_ema_acc1:0.1 ❤best_ema_acc5:0.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-5 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002507 -train_acc1:5.741 -grad_norm:1.28
+(main.py 179): INFO --> Val results: ♣acc1:16.096 ♣acc5:35.860 ♣loss:4.5545 ♠best_acc1:16.1 ♠best_acc5:35.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.134 ♦ema_acc5:0.644 ♦ema_loss:6.9122 ❤best_ema_acc1:0.1 ❤best_ema_acc5:0.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-6 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003007 -train_acc1:8.268 -grad_norm:1.33
+(main.py 179): INFO --> Val results: ♣acc1:22.208 ♣acc5:44.836 ♣loss:4.0945 ♠best_acc1:22.2 ♠best_acc5:44.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.198 ♦ema_acc5:0.994 ♦ema_loss:6.8844 ❤best_ema_acc1:0.2 ❤best_ema_acc5:1.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-7 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003506 -train_acc1:10.809 -grad_norm:1.36
+(main.py 179): INFO --> Val results: ♣acc1:27.862 ♣acc5:52.398 ♣loss:3.6623 ♠best_acc1:27.9 ♠best_acc5:52.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.326 ♦ema_acc5:1.436 ♦ema_loss:6.8467 ❤best_ema_acc1:0.3 ❤best_ema_acc5:1.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-8 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004006 -train_acc1:13.717 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:32.498 ♣acc5:57.720 ♣loss:3.3531 ♠best_acc1:32.5 ♠best_acc5:57.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.548 ♦ema_acc5:2.106 ♦ema_loss:6.7934 ❤best_ema_acc1:0.5 ❤best_ema_acc5:2.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-9 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004505 -train_acc1:16.315 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:37.396 ♣acc5:63.316 ♣loss:3.0303 ♠best_acc1:37.4 ♠best_acc5:63.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.772 ♦ema_acc5:2.730 ♦ema_loss:6.7242 ❤best_ema_acc1:0.8 ❤best_ema_acc5:2.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-10 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005005 -train_acc1:18.704 -grad_norm:1.32
+(main.py 179): INFO --> Val results: ♣acc1:40.742 ♣acc5:66.770 ♣loss:2.8227 ♠best_acc1:40.7 ♠best_acc5:66.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:0.976 ♦ema_acc5:3.594 ♦ema_loss:6.6411 ❤best_ema_acc1:1.0 ❤best_ema_acc5:3.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-11 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005504 -train_acc1:21.316 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:45.022 ♣acc5:70.948 ♣loss:2.6255 ♠best_acc1:45.0 ♠best_acc5:70.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:1.336 ♦ema_acc5:4.708 ♦ema_loss:6.5411 ❤best_ema_acc1:1.3 ❤best_ema_acc5:4.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-12 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006004 -train_acc1:23.925 -grad_norm:1.28
+(main.py 179): INFO --> Val results: ♣acc1:47.664 ♣acc5:73.152 ♣loss:2.4886 ♠best_acc1:47.7 ♠best_acc5:73.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:1.868 ♦ema_acc5:6.254 ♦ema_loss:6.4187 ❤best_ema_acc1:1.9 ❤best_ema_acc5:6.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-13 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006503 -train_acc1:26.057 -grad_norm:1.27
+(main.py 179): INFO --> Val results: ♣acc1:50.778 ♣acc5:76.014 ♣loss:2.3007 ♠best_acc1:50.8 ♠best_acc5:76.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:2.514 ♦ema_acc5:7.946 ♦ema_loss:6.2652 ❤best_ema_acc1:2.5 ❤best_ema_acc5:7.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-14 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007003 -train_acc1:27.940 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:52.590 ♣acc5:77.510 ♣loss:2.1973 ♠best_acc1:52.6 ♠best_acc5:77.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:3.466 ♦ema_acc5:10.458 ♦ema_loss:6.0662 ❤best_ema_acc1:3.5 ❤best_ema_acc5:10.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-15 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007502 -train_acc1:29.915 -grad_norm:1.22
+(main.py 179): INFO --> Val results: ♣acc1:55.320 ♣acc5:79.948 ♣loss:2.0697 ♠best_acc1:55.3 ♠best_acc5:79.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:4.828 ♦ema_acc5:13.946 ♦ema_loss:5.8181 ❤best_ema_acc1:4.8 ❤best_ema_acc5:13.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-16 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008002 -train_acc1:31.389 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:57.116 ♣acc5:81.038 ♣loss:1.9855 ♠best_acc1:57.1 ♠best_acc5:81.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:6.966 ♦ema_acc5:18.476 ♦ema_loss:5.5241 ❤best_ema_acc1:7.0 ❤best_ema_acc5:18.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-17 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008501 -train_acc1:32.704 -grad_norm:1.20
+(main.py 179): INFO --> Val results: ♣acc1:58.938 ♣acc5:82.702 ♣loss:1.8742 ♠best_acc1:58.9 ♠best_acc5:82.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:9.978 ♦ema_acc5:24.514 ♦ema_loss:5.1757 ❤best_ema_acc1:10.0 ❤best_ema_acc5:24.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-18 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009001 -train_acc1:34.155 -grad_norm:1.20
+(main.py 179): INFO --> Val results: ♣acc1:59.386 ♣acc5:83.372 ♣loss:1.8198 ♠best_acc1:59.4 ♠best_acc5:83.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:14.234 ♦ema_acc5:31.958 ♦ema_loss:4.7723 ❤best_ema_acc1:14.2 ❤best_ema_acc5:32.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-19 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009500 -train_acc1:35.407 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:61.146 ♣acc5:84.336 ♣loss:1.7689 ♠best_acc1:61.1 ♠best_acc5:84.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:19.586 ♦ema_acc5:40.074 ♦ema_loss:4.3458 ❤best_ema_acc1:19.6 ❤best_ema_acc5:40.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-20 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0010000 -train_acc1:36.364 -grad_norm:1.19
+(main.py 179): INFO --> Val results: ♣acc1:61.872 ♣acc5:84.968 ♣loss:1.7288 ♠best_acc1:61.9 ♠best_acc5:85.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:25.212 ♦ema_acc5:47.778 ♦ema_loss:3.9241 ❤best_ema_acc1:25.2 ❤best_ema_acc5:47.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-21 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0010000 -train_acc1:37.640 -grad_norm:1.17
+(main.py 179): INFO --> Val results: ♣acc1:62.858 ♣acc5:85.550 ♣loss:1.6974 ♠best_acc1:62.9 ♠best_acc5:85.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:31.100 ♦ema_acc5:55.192 ♦ema_loss:3.5100 ❤best_ema_acc1:31.1 ❤best_ema_acc5:55.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-22 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009999 -train_acc1:38.794 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:64.250 ♣acc5:86.362 ♣loss:1.5973 ♠best_acc1:64.2 ♠best_acc5:86.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:36.788 ♦ema_acc5:61.662 ♦ema_loss:3.1368 ❤best_ema_acc1:36.8 ❤best_ema_acc5:61.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-23 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009997 -train_acc1:39.906 -grad_norm:1.17
+(main.py 179): INFO --> Val results: ♣acc1:65.160 ♣acc5:87.056 ♣loss:1.5710 ♠best_acc1:65.2 ♠best_acc5:87.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:41.750 ♦ema_acc5:66.852 ♦ema_loss:2.8181 ❤best_ema_acc1:41.8 ❤best_ema_acc5:66.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-24 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009995 -train_acc1:40.661 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:66.458 ♣acc5:88.032 ♣loss:1.5096 ♠best_acc1:66.5 ♠best_acc5:88.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:46.014 ♦ema_acc5:71.140 ♦ema_loss:2.5515 ❤best_ema_acc1:46.0 ❤best_ema_acc5:71.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-25 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009992 -train_acc1:41.768 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:66.994 ♣acc5:88.366 ♣loss:1.4470 ♠best_acc1:67.0 ♠best_acc5:88.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:49.700 ♦ema_acc5:74.496 ♦ema_loss:2.3310 ❤best_ema_acc1:49.7 ❤best_ema_acc5:74.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-26 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009989 -train_acc1:42.538 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:67.796 ♣acc5:88.850 ♣loss:1.4618 ♠best_acc1:67.8 ♠best_acc5:88.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:52.610 ♦ema_acc5:77.002 ♦ema_loss:2.1566 ❤best_ema_acc1:52.6 ❤best_ema_acc5:77.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-27 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009985 -train_acc1:43.319 -grad_norm:1.19
+(main.py 179): INFO --> Val results: ♣acc1:68.282 ♣acc5:89.264 ♣loss:1.4167 ♠best_acc1:68.3 ♠best_acc5:89.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:55.018 ♦ema_acc5:79.134 ♦ema_loss:2.0138 ❤best_ema_acc1:55.0 ❤best_ema_acc5:79.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-28 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009980 -train_acc1:43.869 -grad_norm:1.22
+(main.py 179): INFO --> Val results: ♣acc1:69.030 ♣acc5:89.492 ♣loss:1.3734 ♠best_acc1:69.0 ♠best_acc5:89.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:57.116 ♦ema_acc5:80.800 ♦ema_loss:1.8996 ❤best_ema_acc1:57.1 ❤best_ema_acc5:80.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-29 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009975 -train_acc1:44.824 -grad_norm:1.20
+(main.py 179): INFO --> Val results: ♣acc1:69.346 ♣acc5:89.824 ♣loss:1.3428 ♠best_acc1:69.3 ♠best_acc5:89.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:58.842 ♦ema_acc5:82.288 ♦ema_loss:1.8042 ❤best_ema_acc1:58.8 ❤best_ema_acc5:82.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-30 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009969 -train_acc1:44.917 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:69.398 ♣acc5:90.028 ♣loss:1.4132 ♠best_acc1:69.4 ♠best_acc5:90.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:60.490 ♦ema_acc5:83.492 ♦ema_loss:1.7224 ❤best_ema_acc1:60.5 ❤best_ema_acc5:83.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-31 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009962 -train_acc1:45.444 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:70.358 ♣acc5:90.410 ♣loss:1.2948 ♠best_acc1:70.4 ♠best_acc5:90.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:61.758 ♦ema_acc5:84.492 ♦ema_loss:1.6550 ❤best_ema_acc1:61.8 ❤best_ema_acc5:84.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-32 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009955 -train_acc1:45.966 -grad_norm:1.24
+(main.py 179): INFO --> Val results: ♣acc1:70.744 ♣acc5:90.570 ♣loss:1.3088 ♠best_acc1:70.7 ♠best_acc5:90.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:62.962 ♦ema_acc5:85.320 ♦ema_loss:1.5970 ❤best_ema_acc1:63.0 ❤best_ema_acc5:85.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-33 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009947 -train_acc1:46.150 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:70.566 ♣acc5:90.702 ♣loss:1.2964 ♠best_acc1:70.7 ♠best_acc5:90.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:63.898 ♦ema_acc5:86.004 ♦ema_loss:1.5464 ❤best_ema_acc1:63.9 ❤best_ema_acc5:86.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-34 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009939 -train_acc1:46.539 -grad_norm:1.25
+(main.py 179): INFO --> Val results: ♣acc1:70.962 ♣acc5:90.692 ♣loss:1.3429 ♠best_acc1:71.0 ♠best_acc5:90.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:64.838 ♦ema_acc5:86.610 ♦ema_loss:1.5013 ❤best_ema_acc1:64.8 ❤best_ema_acc5:86.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-35 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009930 -train_acc1:46.982 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:71.740 ♣acc5:91.144 ♣loss:1.2807 ♠best_acc1:71.7 ♠best_acc5:91.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:65.764 ♦ema_acc5:87.152 ♦ema_loss:1.4618 ❤best_ema_acc1:65.8 ❤best_ema_acc5:87.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-36 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009920 -train_acc1:47.292 -grad_norm:1.25
+(main.py 179): INFO --> Val results: ♣acc1:72.044 ♣acc5:91.392 ♣loss:1.2717 ♠best_acc1:72.0 ♠best_acc5:91.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:66.462 ♦ema_acc5:87.668 ♦ema_loss:1.4273 ❤best_ema_acc1:66.5 ❤best_ema_acc5:87.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-37 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009910 -train_acc1:48.079 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:72.208 ♣acc5:91.336 ♣loss:1.2360 ♠best_acc1:72.2 ♠best_acc5:91.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:67.150 ♦ema_acc5:88.074 ♦ema_loss:1.3950 ❤best_ema_acc1:67.2 ❤best_ema_acc5:88.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-38 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009899 -train_acc1:47.943 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:72.330 ♣acc5:91.636 ♣loss:1.2279 ♠best_acc1:72.3 ♠best_acc5:91.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:67.792 ♦ema_acc5:88.552 ♦ema_loss:1.3658 ❤best_ema_acc1:67.8 ❤best_ema_acc5:88.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-39 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009888 -train_acc1:48.547 -grad_norm:1.28
+(main.py 179): INFO --> Val results: ♣acc1:72.364 ♣acc5:91.540 ♣loss:1.2671 ♠best_acc1:72.4 ♠best_acc5:91.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:68.432 ♦ema_acc5:88.940 ♦ema_loss:1.3390 ❤best_ema_acc1:68.4 ❤best_ema_acc5:88.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-40 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009876 -train_acc1:48.583 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:72.322 ♣acc5:91.740 ♣loss:1.2054 ♠best_acc1:72.4 ♠best_acc5:91.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:68.928 ♦ema_acc5:89.276 ♦ema_loss:1.3152 ❤best_ema_acc1:68.9 ❤best_ema_acc5:89.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-41 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009863 -train_acc1:48.818 -grad_norm:1.29
+(main.py 179): INFO --> Val results: ♣acc1:73.010 ♣acc5:91.726 ♣loss:1.2186 ♠best_acc1:73.0 ♠best_acc5:91.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:69.374 ♦ema_acc5:89.610 ♦ema_loss:1.2943 ❤best_ema_acc1:69.4 ❤best_ema_acc5:89.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-42 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009850 -train_acc1:48.743 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:73.214 ♣acc5:91.952 ♣loss:1.1796 ♠best_acc1:73.2 ♠best_acc5:92.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:69.904 ♦ema_acc5:89.880 ♦ema_loss:1.2756 ❤best_ema_acc1:69.9 ❤best_ema_acc5:89.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-43 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009836 -train_acc1:49.330 -grad_norm:1.29
+(main.py 179): INFO --> Val results: ♣acc1:73.360 ♣acc5:92.020 ♣loss:1.1759 ♠best_acc1:73.4 ♠best_acc5:92.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:70.398 ♦ema_acc5:90.180 ♦ema_loss:1.2572 ❤best_ema_acc1:70.4 ❤best_ema_acc5:90.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-44 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009822 -train_acc1:49.608 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:73.420 ♣acc5:91.968 ♣loss:1.1872 ♠best_acc1:73.4 ♠best_acc5:92.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:70.848 ♦ema_acc5:90.474 ♦ema_loss:1.2395 ❤best_ema_acc1:70.8 ❤best_ema_acc5:90.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-45 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009807 -train_acc1:49.511 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:73.436 ♣acc5:92.288 ♣loss:1.1998 ♠best_acc1:73.4 ♠best_acc5:92.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:71.222 ♦ema_acc5:90.706 ♦ema_loss:1.2228 ❤best_ema_acc1:71.2 ❤best_ema_acc5:90.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-46 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009791 -train_acc1:49.763 -grad_norm:1.30
+(main.py 179): INFO --> Val results: ♣acc1:73.778 ♣acc5:92.216 ♣loss:1.1916 ♠best_acc1:73.8 ♠best_acc5:92.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:71.706 ♦ema_acc5:90.968 ♦ema_loss:1.2068 ❤best_ema_acc1:71.7 ❤best_ema_acc5:91.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-47 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009775 -train_acc1:49.851 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:73.418 ♣acc5:92.298 ♣loss:1.1964 ♠best_acc1:73.8 ♠best_acc5:92.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:72.088 ♦ema_acc5:91.198 ♦ema_loss:1.1928 ❤best_ema_acc1:72.1 ❤best_ema_acc5:91.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-48 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009758 -train_acc1:50.240 -grad_norm:1.31
+(main.py 179): INFO --> Val results: ♣acc1:74.176 ♣acc5:92.510 ♣loss:1.1844 ♠best_acc1:74.2 ♠best_acc5:92.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:72.442 ♦ema_acc5:91.452 ♦ema_loss:1.1776 ❤best_ema_acc1:72.4 ❤best_ema_acc5:91.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-49 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009740 -train_acc1:50.374 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:74.042 ♣acc5:92.484 ♣loss:1.1969 ♠best_acc1:74.2 ♠best_acc5:92.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:72.790 ♦ema_acc5:91.670 ♦ema_loss:1.1621 ❤best_ema_acc1:72.8 ❤best_ema_acc5:91.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-50 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009722 -train_acc1:50.673 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:74.340 ♣acc5:92.522 ♣loss:1.1205 ♠best_acc1:74.3 ♠best_acc5:92.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:73.184 ♦ema_acc5:91.904 ♦ema_loss:1.1480 ❤best_ema_acc1:73.2 ❤best_ema_acc5:91.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-51 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009704 -train_acc1:50.315 -grad_norm:1.32
+(main.py 179): INFO --> Val results: ♣acc1:74.058 ♣acc5:92.418 ♣loss:1.1984 ♠best_acc1:74.3 ♠best_acc5:92.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:73.540 ♦ema_acc5:92.096 ♦ema_loss:1.1351 ❤best_ema_acc1:73.5 ❤best_ema_acc5:92.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-52 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009684 -train_acc1:50.495 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:74.254 ♣acc5:92.668 ♣loss:1.1231 ♠best_acc1:74.3 ♠best_acc5:92.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:73.892 ♦ema_acc5:92.296 ♦ema_loss:1.1219 ❤best_ema_acc1:73.9 ❤best_ema_acc5:92.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-53 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009665 -train_acc1:50.855 -grad_norm:1.32
+(main.py 179): INFO --> Val results: ♣acc1:74.546 ♣acc5:92.496 ♣loss:1.1684 ♠best_acc1:74.5 ♠best_acc5:92.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:74.292 ♦ema_acc5:92.498 ♦ema_loss:1.1084 ❤best_ema_acc1:74.3 ❤best_ema_acc5:92.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-54 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009644 -train_acc1:51.096 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:74.532 ♣acc5:92.742 ♣loss:1.1408 ♠best_acc1:74.5 ♠best_acc5:92.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:74.644 ♦ema_acc5:92.680 ♦ema_loss:1.0964 ❤best_ema_acc1:74.6 ❤best_ema_acc5:92.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-55 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009623 -train_acc1:51.334 -grad_norm:1.33
+(main.py 179): INFO --> Val results: ♣acc1:74.432 ♣acc5:92.838 ♣loss:1.1515 ♠best_acc1:74.5 ♠best_acc5:92.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:74.936 ♦ema_acc5:92.820 ♦ema_loss:1.0843 ❤best_ema_acc1:74.9 ❤best_ema_acc5:92.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-56 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009602 -train_acc1:51.363 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:74.678 ♣acc5:92.838 ♣loss:1.1583 ♠best_acc1:74.7 ♠best_acc5:92.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:75.228 ♦ema_acc5:92.960 ♦ema_loss:1.0730 ❤best_ema_acc1:75.2 ❤best_ema_acc5:93.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-57 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009580 -train_acc1:51.382 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:74.732 ♣acc5:92.888 ♣loss:1.1260 ♠best_acc1:74.7 ♠best_acc5:92.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:75.494 ♦ema_acc5:93.146 ♦ema_loss:1.0628 ❤best_ema_acc1:75.5 ❤best_ema_acc5:93.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-58 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009557 -train_acc1:51.518 -grad_norm:1.33
+(main.py 179): INFO --> Val results: ♣acc1:74.660 ♣acc5:92.706 ♣loss:1.2249 ♠best_acc1:74.7 ♠best_acc5:92.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:75.812 ♦ema_acc5:93.276 ♦ema_loss:1.0533 ❤best_ema_acc1:75.8 ❤best_ema_acc5:93.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-59 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009534 -train_acc1:51.460 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.144 ♣acc5:93.116 ♣loss:1.1011 ♠best_acc1:75.1 ♠best_acc5:93.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:76.070 ♦ema_acc5:93.414 ♦ema_loss:1.0446 ❤best_ema_acc1:76.1 ❤best_ema_acc5:93.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-60 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009510 -train_acc1:51.716 -grad_norm:1.34
+(main.py 179): INFO --> Val results: ♣acc1:75.118 ♣acc5:93.038 ♣loss:1.1151 ♠best_acc1:75.1 ♠best_acc5:93.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:76.342 ♦ema_acc5:93.512 ♦ema_loss:1.0361 ❤best_ema_acc1:76.3 ❤best_ema_acc5:93.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-61 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009485 -train_acc1:51.835 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.164 ♣acc5:92.944 ♣loss:1.1328 ♠best_acc1:75.2 ♠best_acc5:93.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:76.510 ♦ema_acc5:93.600 ♦ema_loss:1.0275 ❤best_ema_acc1:76.5 ❤best_ema_acc5:93.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-62 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009461 -train_acc1:51.774 -grad_norm:1.35
+(main.py 179): INFO --> Val results: ♣acc1:75.260 ♣acc5:93.160 ♣loss:1.1120 ♠best_acc1:75.3 ♠best_acc5:93.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:76.716 ♦ema_acc5:93.758 ♦ema_loss:1.0197 ❤best_ema_acc1:76.7 ❤best_ema_acc5:93.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-63 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009435 -train_acc1:52.188 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.506 ♣acc5:93.196 ♣loss:1.1063 ♠best_acc1:75.5 ♠best_acc5:93.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:76.874 ♦ema_acc5:93.844 ♦ema_loss:1.0125 ❤best_ema_acc1:76.9 ❤best_ema_acc5:93.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-64 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009409 -train_acc1:52.170 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.606 ♣acc5:93.232 ♣loss:1.1186 ♠best_acc1:75.6 ♠best_acc5:93.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:77.132 ♦ema_acc5:93.946 ♦ema_loss:1.0046 ❤best_ema_acc1:77.1 ❤best_ema_acc5:93.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-65 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009382 -train_acc1:52.426 -grad_norm:1.34
+(main.py 179): INFO --> Val results: ♣acc1:75.308 ♣acc5:93.100 ♣loss:1.1222 ♠best_acc1:75.6 ♠best_acc5:93.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:77.306 ♦ema_acc5:94.036 ♦ema_loss:0.9975 ❤best_ema_acc1:77.3 ❤best_ema_acc5:94.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-66 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009355 -train_acc1:52.193 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.514 ♣acc5:93.154 ♣loss:1.1552 ♠best_acc1:75.6 ♠best_acc5:93.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:77.428 ♦ema_acc5:94.100 ♦ema_loss:0.9906 ❤best_ema_acc1:77.4 ❤best_ema_acc5:94.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-67 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009328 -train_acc1:52.434 -grad_norm:1.35
+(main.py 179): INFO --> Val results: ♣acc1:75.700 ♣acc5:93.332 ♣loss:1.0701 ♠best_acc1:75.7 ♠best_acc5:93.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:77.600 ♦ema_acc5:94.148 ♦ema_loss:0.9840 ❤best_ema_acc1:77.6 ❤best_ema_acc5:94.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-68 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009299 -train_acc1:52.597 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.762 ♣acc5:93.268 ♣loss:1.0954 ♠best_acc1:75.8 ♠best_acc5:93.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:77.734 ♦ema_acc5:94.266 ♦ema_loss:0.9786 ❤best_ema_acc1:77.7 ❤best_ema_acc5:94.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-69 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009271 -train_acc1:52.700 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.898 ♣acc5:93.196 ♣loss:1.0826 ♠best_acc1:75.9 ♠best_acc5:93.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:77.870 ♦ema_acc5:94.326 ♦ema_loss:0.9736 ❤best_ema_acc1:77.9 ❤best_ema_acc5:94.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-70 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009241 -train_acc1:52.342 -grad_norm:1.35
+(main.py 179): INFO --> Val results: ♣acc1:75.812 ♣acc5:93.260 ♣loss:1.0901 ♠best_acc1:75.9 ♠best_acc5:93.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:77.942 ♦ema_acc5:94.398 ♦ema_loss:0.9681 ❤best_ema_acc1:77.9 ❤best_ema_acc5:94.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-71 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009211 -train_acc1:52.654 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.506 ♣acc5:93.284 ♣loss:1.1573 ♠best_acc1:75.9 ♠best_acc5:93.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.106 ♦ema_acc5:94.462 ♦ema_loss:0.9628 ❤best_ema_acc1:78.1 ❤best_ema_acc5:94.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-72 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009181 -train_acc1:52.653 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.926 ♣acc5:93.352 ♣loss:1.1410 ♠best_acc1:75.9 ♠best_acc5:93.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.244 ♦ema_acc5:94.538 ♦ema_loss:0.9581 ❤best_ema_acc1:78.2 ❤best_ema_acc5:94.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-73 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009150 -train_acc1:52.799 -grad_norm:1.36
+(main.py 179): INFO --> Val results: ♣acc1:75.972 ♣acc5:93.418 ♣loss:1.1001 ♠best_acc1:76.0 ♠best_acc5:93.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.398 ♦ema_acc5:94.596 ♦ema_loss:0.9547 ❤best_ema_acc1:78.4 ❤best_ema_acc5:94.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-74 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009119 -train_acc1:52.891 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.932 ♣acc5:93.348 ♣loss:1.0634 ♠best_acc1:76.0 ♠best_acc5:93.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.434 ♦ema_acc5:94.638 ♦ema_loss:0.9520 ❤best_ema_acc1:78.4 ❤best_ema_acc5:94.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-75 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009087 -train_acc1:53.045 -grad_norm:1.36
+(main.py 179): INFO --> Val results: ♣acc1:76.144 ♣acc5:93.504 ♣loss:1.1096 ♠best_acc1:76.1 ♠best_acc5:93.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.532 ♦ema_acc5:94.672 ♦ema_loss:0.9483 ❤best_ema_acc1:78.5 ❤best_ema_acc5:94.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-76 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009055 -train_acc1:53.263 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:75.998 ♣acc5:93.494 ♣loss:1.0694 ♠best_acc1:76.1 ♠best_acc5:93.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.656 ♦ema_acc5:94.702 ♦ema_loss:0.9448 ❤best_ema_acc1:78.7 ❤best_ema_acc5:94.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-77 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0009022 -train_acc1:53.520 -grad_norm:1.36
+(main.py 179): INFO --> Val results: ♣acc1:76.108 ♣acc5:93.582 ♣loss:1.1000 ♠best_acc1:76.1 ♠best_acc5:93.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.744 ♦ema_acc5:94.758 ♦ema_loss:0.9406 ❤best_ema_acc1:78.7 ❤best_ema_acc5:94.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-78 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008988 -train_acc1:53.131 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:76.194 ♣acc5:93.604 ♣loss:1.0893 ♠best_acc1:76.2 ♠best_acc5:93.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.884 ♦ema_acc5:94.794 ♦ema_loss:0.9372 ❤best_ema_acc1:78.9 ❤best_ema_acc5:94.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-79 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008954 -train_acc1:53.445 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:76.094 ♣acc5:93.462 ♣loss:1.1278 ♠best_acc1:76.2 ♠best_acc5:93.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:78.980 ♦ema_acc5:94.842 ♦ema_loss:0.9340 ❤best_ema_acc1:79.0 ❤best_ema_acc5:94.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-80 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008920 -train_acc1:53.369 -grad_norm:1.36
+(main.py 179): INFO --> Val results: ♣acc1:76.300 ♣acc5:93.596 ♣loss:1.0537 ♠best_acc1:76.3 ♠best_acc5:93.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.058 ♦ema_acc5:94.882 ♦ema_loss:0.9312 ❤best_ema_acc1:79.1 ❤best_ema_acc5:94.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-81 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008885 -train_acc1:53.497 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:76.120 ♣acc5:93.476 ♣loss:1.0771 ♠best_acc1:76.3 ♠best_acc5:93.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.116 ♦ema_acc5:94.928 ♦ema_loss:0.9276 ❤best_ema_acc1:79.1 ❤best_ema_acc5:94.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-82 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008850 -train_acc1:53.349 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:76.466 ♣acc5:93.686 ♣loss:1.0685 ♠best_acc1:76.5 ♠best_acc5:93.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.214 ♦ema_acc5:94.920 ♦ema_loss:0.9242 ❤best_ema_acc1:79.2 ❤best_ema_acc5:94.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-83 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008814 -train_acc1:53.581 -grad_norm:1.38
+(main.py 179): INFO --> Val results: ♣acc1:76.494 ♣acc5:93.598 ♣loss:1.0718 ♠best_acc1:76.5 ♠best_acc5:93.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.310 ♦ema_acc5:94.948 ♦ema_loss:0.9203 ❤best_ema_acc1:79.3 ❤best_ema_acc5:94.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-84 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008778 -train_acc1:53.947 -grad_norm:1.37
+(main.py 179): INFO --> Val results: ♣acc1:76.676 ♣acc5:93.748 ♣loss:1.0643 ♠best_acc1:76.7 ♠best_acc5:93.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.390 ♦ema_acc5:95.000 ♦ema_loss:0.9172 ❤best_ema_acc1:79.4 ❤best_ema_acc5:95.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-85 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008741 -train_acc1:53.635 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:76.538 ♣acc5:93.754 ♣loss:1.0721 ♠best_acc1:76.7 ♠best_acc5:93.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.468 ♦ema_acc5:95.030 ♦ema_loss:0.9152 ❤best_ema_acc1:79.5 ❤best_ema_acc5:95.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-86 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008704 -train_acc1:53.784 -grad_norm:1.39
+(main.py 179): INFO --> Val results: ♣acc1:76.728 ♣acc5:93.724 ♣loss:1.0689 ♠best_acc1:76.7 ♠best_acc5:93.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.494 ♦ema_acc5:95.042 ♦ema_loss:0.9133 ❤best_ema_acc1:79.5 ❤best_ema_acc5:95.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-87 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008666 -train_acc1:53.892 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:76.812 ♣acc5:93.842 ♣loss:1.0312 ♠best_acc1:76.8 ♠best_acc5:93.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.574 ♦ema_acc5:95.076 ♦ema_loss:0.9112 ❤best_ema_acc1:79.6 ❤best_ema_acc5:95.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-88 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008628 -train_acc1:53.908 -grad_norm:1.38
+(main.py 179): INFO --> Val results: ♣acc1:77.000 ♣acc5:93.980 ♣loss:1.0701 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.624 ♦ema_acc5:95.102 ♦ema_loss:0.9099 ❤best_ema_acc1:79.6 ❤best_ema_acc5:95.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-89 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008589 -train_acc1:53.969 -grad_norm:1.40
+(main.py 179): INFO --> Val results: ♣acc1:76.914 ♣acc5:93.854 ♣loss:1.0175 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.644 ♦ema_acc5:95.154 ♦ema_loss:0.9088 ❤best_ema_acc1:79.6 ❤best_ema_acc5:95.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-90 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008550 -train_acc1:54.369 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:76.992 ♣acc5:93.894 ♣loss:1.0786 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.714 ♦ema_acc5:95.184 ♦ema_loss:0.9069 ❤best_ema_acc1:79.7 ❤best_ema_acc5:95.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-91 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008511 -train_acc1:54.037 -grad_norm:1.41
+(main.py 179): INFO --> Val results: ♣acc1:76.836 ♣acc5:93.952 ♣loss:1.0657 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.766 ♦ema_acc5:95.202 ♦ema_loss:0.9048 ❤best_ema_acc1:79.8 ❤best_ema_acc5:95.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-92 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008471 -train_acc1:54.271 -grad_norm:1.41
+(main.py 179): INFO --> Val results: ♣acc1:76.518 ♣acc5:93.818 ♣loss:1.0516 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.766 ♦ema_acc5:95.202 ♦ema_loss:0.9039 ❤best_ema_acc1:79.8 ❤best_ema_acc5:95.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-93 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008430 -train_acc1:54.240 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.044 ♣acc5:93.870 ♣loss:1.0400 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.776 ♦ema_acc5:95.262 ♦ema_loss:0.9024 ❤best_ema_acc1:79.8 ❤best_ema_acc5:95.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-94 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008390 -train_acc1:54.272 -grad_norm:1.42
+(main.py 179): INFO --> Val results: ♣acc1:76.662 ♣acc5:93.786 ♣loss:1.1519 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.836 ♦ema_acc5:95.294 ♦ema_loss:0.9005 ❤best_ema_acc1:79.8 ❤best_ema_acc5:95.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-95 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008348 -train_acc1:54.367 -grad_norm:1.41
+(main.py 179): INFO --> Val results: ♣acc1:76.932 ♣acc5:93.938 ♣loss:1.0451 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.862 ♦ema_acc5:95.318 ♦ema_loss:0.8993 ❤best_ema_acc1:79.9 ❤best_ema_acc5:95.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-96 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008307 -train_acc1:54.957 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:76.736 ♣acc5:93.730 ♣loss:1.0947 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.898 ♦ema_acc5:95.348 ♦ema_loss:0.8975 ❤best_ema_acc1:79.9 ❤best_ema_acc5:95.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-97 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008265 -train_acc1:54.484 -grad_norm:1.43
+(main.py 179): INFO --> Val results: ♣acc1:76.872 ♣acc5:93.854 ♣loss:1.1446 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:79.956 ♦ema_acc5:95.368 ♦ema_loss:0.8960 ❤best_ema_acc1:80.0 ❤best_ema_acc5:95.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-98 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008222 -train_acc1:54.463 -grad_norm:1.42
+(main.py 179): INFO --> Val results: ♣acc1:76.886 ♣acc5:93.946 ♣loss:0.9968 ♠best_acc1:77.0 ♠best_acc5:94.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.010 ♦ema_acc5:95.388 ♦ema_loss:0.8945 ❤best_ema_acc1:80.0 ❤best_ema_acc5:95.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-99 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008180 -train_acc1:54.481 -grad_norm:1.43
+(main.py 179): INFO --> Val results: ♣acc1:77.184 ♣acc5:94.074 ♣loss:1.0403 ♠best_acc1:77.2 ♠best_acc5:94.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.026 ♦ema_acc5:95.398 ♦ema_loss:0.8932 ❤best_ema_acc1:80.0 ❤best_ema_acc5:95.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-100 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008136 -train_acc1:54.913 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.060 ♣acc5:93.888 ♣loss:1.0452 ♠best_acc1:77.2 ♠best_acc5:94.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.002 ♦ema_acc5:95.394 ♦ema_loss:0.8918 ❤best_ema_acc1:80.0 ❤best_ema_acc5:95.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-101 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008093 -train_acc1:54.778 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.252 ♣acc5:93.972 ♣loss:1.0383 ♠best_acc1:77.3 ♠best_acc5:94.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.010 ♦ema_acc5:95.416 ♦ema_loss:0.8904 ❤best_ema_acc1:80.0 ❤best_ema_acc5:95.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-102 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008049 -train_acc1:54.659 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.254 ♣acc5:94.088 ♣loss:1.0795 ♠best_acc1:77.3 ♠best_acc5:94.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.080 ♦ema_acc5:95.428 ♦ema_loss:0.8889 ❤best_ema_acc1:80.1 ❤best_ema_acc5:95.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-103 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0008004 -train_acc1:55.191 -grad_norm:1.45
+(main.py 179): INFO --> Val results: ♣acc1:77.464 ♣acc5:94.200 ♣loss:1.0234 ♠best_acc1:77.5 ♠best_acc5:94.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.112 ♦ema_acc5:95.422 ♦ema_loss:0.8875 ❤best_ema_acc1:80.1 ❤best_ema_acc5:95.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-104 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007960 -train_acc1:54.957 -grad_norm:1.44
+(main.py 179): INFO --> Val results: ♣acc1:77.186 ♣acc5:94.142 ♣loss:1.0237 ♠best_acc1:77.5 ♠best_acc5:94.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.146 ♦ema_acc5:95.450 ♦ema_loss:0.8863 ❤best_ema_acc1:80.1 ❤best_ema_acc5:95.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-105 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007914 -train_acc1:55.138 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.004 ♣acc5:93.978 ♣loss:1.1180 ♠best_acc1:77.5 ♠best_acc5:94.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.226 ♦ema_acc5:95.488 ♦ema_loss:0.8850 ❤best_ema_acc1:80.2 ❤best_ema_acc5:95.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-106 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007869 -train_acc1:55.209 -grad_norm:1.45
+(main.py 179): INFO --> Val results: ♣acc1:77.360 ♣acc5:94.366 ♣loss:1.0061 ♠best_acc1:77.5 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.292 ♦ema_acc5:95.502 ♦ema_loss:0.8842 ❤best_ema_acc1:80.3 ❤best_ema_acc5:95.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-107 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007823 -train_acc1:55.073 -grad_norm:1.47
+(main.py 179): INFO --> Val results: ♣acc1:77.470 ♣acc5:94.164 ♣loss:1.0201 ♠best_acc1:77.5 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.340 ♦ema_acc5:95.536 ♦ema_loss:0.8834 ❤best_ema_acc1:80.3 ❤best_ema_acc5:95.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-108 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007777 -train_acc1:55.217 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.610 ♣acc5:94.314 ♣loss:1.0274 ♠best_acc1:77.6 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.328 ♦ema_acc5:95.556 ♦ema_loss:0.8823 ❤best_ema_acc1:80.3 ❤best_ema_acc5:95.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-109 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007730 -train_acc1:55.232 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.538 ♣acc5:94.286 ♣loss:1.0291 ♠best_acc1:77.6 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.392 ♦ema_acc5:95.580 ♦ema_loss:0.8817 ❤best_ema_acc1:80.4 ❤best_ema_acc5:95.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-110 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007684 -train_acc1:55.322 -grad_norm:1.48
+(main.py 179): INFO --> Val results: ♣acc1:77.796 ♣acc5:94.326 ♣loss:1.0301 ♠best_acc1:77.8 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.396 ♦ema_acc5:95.620 ♦ema_loss:0.8805 ❤best_ema_acc1:80.4 ❤best_ema_acc5:95.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-111 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007636 -train_acc1:55.333 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.650 ♣acc5:94.244 ♣loss:1.0077 ♠best_acc1:77.8 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.408 ♦ema_acc5:95.646 ♦ema_loss:0.8795 ❤best_ema_acc1:80.4 ❤best_ema_acc5:95.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-112 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007589 -train_acc1:55.494 -grad_norm:1.47
+(main.py 179): INFO --> Val results: ♣acc1:77.234 ♣acc5:94.202 ♣loss:1.0549 ♠best_acc1:77.8 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.440 ♦ema_acc5:95.662 ♦ema_loss:0.8789 ❤best_ema_acc1:80.4 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-113 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007541 -train_acc1:55.399 -grad_norm:1.49
+(main.py 179): INFO --> Val results: ♣acc1:77.796 ♣acc5:94.372 ♣loss:1.0378 ♠best_acc1:77.8 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.488 ♦ema_acc5:95.644 ♦ema_loss:0.8780 ❤best_ema_acc1:80.5 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-114 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007493 -train_acc1:55.625 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:77.602 ♣acc5:94.282 ♣loss:1.0225 ♠best_acc1:77.8 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.538 ♦ema_acc5:95.658 ♦ema_loss:0.8767 ❤best_ema_acc1:80.5 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-115 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007444 -train_acc1:55.758 -grad_norm:1.50
+(main.py 179): INFO --> Val results: ♣acc1:77.808 ♣acc5:94.286 ♣loss:1.0354 ♠best_acc1:77.8 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.584 ♦ema_acc5:95.674 ♦ema_loss:0.8751 ❤best_ema_acc1:80.6 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-116 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007396 -train_acc1:56.087 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.992 ♣acc5:94.370 ♣loss:1.0101 ♠best_acc1:78.0 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.606 ♦ema_acc5:95.686 ♦ema_loss:0.8740 ❤best_ema_acc1:80.6 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-117 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007347 -train_acc1:55.526 -grad_norm:1.51
+(main.py 179): INFO --> Val results: ♣acc1:77.764 ♣acc5:94.390 ♣loss:1.0265 ♠best_acc1:78.0 ♠best_acc5:94.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.686 ♦ema_acc5:95.694 ♦ema_loss:0.8733 ❤best_ema_acc1:80.7 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-118 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007297 -train_acc1:56.006 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.022 ♣acc5:94.474 ♣loss:1.0453 ♠best_acc1:78.0 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.758 ♦ema_acc5:95.730 ♦ema_loss:0.8728 ❤best_ema_acc1:80.8 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-119 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007248 -train_acc1:56.365 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.828 ♣acc5:94.376 ♣loss:1.0032 ♠best_acc1:78.0 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.776 ♦ema_acc5:95.736 ♦ema_loss:0.8720 ❤best_ema_acc1:80.8 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-120 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007198 -train_acc1:55.951 -grad_norm:1.52
+(main.py 179): INFO --> Val results: ♣acc1:77.970 ♣acc5:94.372 ♣loss:1.0191 ♠best_acc1:78.0 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.794 ♦ema_acc5:95.738 ♦ema_loss:0.8709 ❤best_ema_acc1:80.8 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-121 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007148 -train_acc1:55.984 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:77.744 ♣acc5:94.370 ♣loss:1.0450 ♠best_acc1:78.0 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.842 ♦ema_acc5:95.734 ♦ema_loss:0.8701 ❤best_ema_acc1:80.8 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-122 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007097 -train_acc1:55.950 -grad_norm:1.53
+(main.py 179): INFO --> Val results: ♣acc1:78.058 ♣acc5:94.474 ♣loss:0.9794 ♠best_acc1:78.1 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.890 ♦ema_acc5:95.722 ♦ema_loss:0.8687 ❤best_ema_acc1:80.9 ❤best_ema_acc5:95.7
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-123 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0007046 -train_acc1:56.471 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:78.178 ♣acc5:94.530 ♣loss:1.0465 ♠best_acc1:78.2 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.908 ♦ema_acc5:95.758 ♦ema_loss:0.8675 ❤best_ema_acc1:80.9 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-124 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006996 -train_acc1:56.425 -grad_norm:1.52
+(main.py 179): INFO --> Val results: ♣acc1:78.140 ♣acc5:94.438 ♣loss:1.0022 ♠best_acc1:78.2 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.968 ♦ema_acc5:95.754 ♦ema_loss:0.8671 ❤best_ema_acc1:81.0 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-125 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006944 -train_acc1:56.410 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:78.052 ♣acc5:94.532 ♣loss:0.9944 ♠best_acc1:78.2 ♠best_acc5:94.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:80.992 ♦ema_acc5:95.792 ♦ema_loss:0.8660 ❤best_ema_acc1:81.0 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-126 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006893 -train_acc1:56.379 -grad_norm:1.56
+(main.py 179): INFO --> Val results: ♣acc1:78.302 ♣acc5:94.568 ♣loss:1.0042 ♠best_acc1:78.3 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.000 ♦ema_acc5:95.810 ♦ema_loss:0.8649 ❤best_ema_acc1:81.0 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-127 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006841 -train_acc1:56.313 -grad_norm:1.56
+(main.py 179): INFO --> Val results: ♣acc1:78.334 ♣acc5:94.586 ♣loss:0.9990 ♠best_acc1:78.3 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.006 ♦ema_acc5:95.812 ♦ema_loss:0.8634 ❤best_ema_acc1:81.0 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-128 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006789 -train_acc1:56.851 -grad_norm:1.56
+(main.py 179): INFO --> Val results: ♣acc1:78.502 ♣acc5:94.606 ♣loss:0.9523 ♠best_acc1:78.5 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.062 ♦ema_acc5:95.838 ♦ema_loss:0.8625 ❤best_ema_acc1:81.1 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-129 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006737 -train_acc1:56.700 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.280 ♣acc5:94.468 ♣loss:1.0128 ♠best_acc1:78.5 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.068 ♦ema_acc5:95.840 ♦ema_loss:0.8610 ❤best_ema_acc1:81.1 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-130 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006685 -train_acc1:56.779 -grad_norm:1.58
+(main.py 179): INFO --> Val results: ♣acc1:78.552 ♣acc5:94.572 ♣loss:0.9904 ♠best_acc1:78.6 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.036 ♦ema_acc5:95.844 ♦ema_loss:0.8604 ❤best_ema_acc1:81.1 ❤best_ema_acc5:95.8
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-131 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006632 -train_acc1:56.839 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.356 ♣acc5:94.446 ♣loss:0.9840 ♠best_acc1:78.6 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.092 ♦ema_acc5:95.864 ♦ema_loss:0.8595 ❤best_ema_acc1:81.1 ❤best_ema_acc5:95.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-132 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006580 -train_acc1:57.072 -grad_norm:1.59
+(main.py 179): INFO --> Val results: ♣acc1:78.582 ♣acc5:94.638 ♣loss:1.0101 ♠best_acc1:78.6 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.142 ♦ema_acc5:95.898 ♦ema_loss:0.8582 ❤best_ema_acc1:81.1 ❤best_ema_acc5:95.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-133 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006527 -train_acc1:56.990 -grad_norm:1.59
+(main.py 179): INFO --> Val results: ♣acc1:78.512 ♣acc5:94.638 ♣loss:0.9992 ♠best_acc1:78.6 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.136 ♦ema_acc5:95.906 ♦ema_loss:0.8572 ❤best_ema_acc1:81.1 ❤best_ema_acc5:95.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-134 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006474 -train_acc1:57.103 -grad_norm:1.59
+(main.py 179): INFO --> Val results: ♣acc1:78.580 ♣acc5:94.534 ♣loss:0.9906 ♠best_acc1:78.6 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.140 ♦ema_acc5:95.874 ♦ema_loss:0.8557 ❤best_ema_acc1:81.1 ❤best_ema_acc5:95.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-135 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006420 -train_acc1:56.898 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.318 ♣acc5:94.548 ♣loss:1.0056 ♠best_acc1:78.6 ♠best_acc5:94.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.228 ♦ema_acc5:95.904 ♦ema_loss:0.8545 ❤best_ema_acc1:81.2 ❤best_ema_acc5:95.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-136 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006367 -train_acc1:56.917 -grad_norm:1.60
+(main.py 179): INFO --> Val results: ♣acc1:78.784 ♣acc5:94.944 ♣loss:0.9646 ♠best_acc1:78.8 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.256 ♦ema_acc5:95.934 ♦ema_loss:0.8538 ❤best_ema_acc1:81.3 ❤best_ema_acc5:95.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-137 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006313 -train_acc1:56.943 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.284 ♣acc5:94.440 ♣loss:1.0556 ♠best_acc1:78.8 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.250 ♦ema_acc5:95.938 ♦ema_loss:0.8524 ❤best_ema_acc1:81.3 ❤best_ema_acc5:95.9
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-138 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006260 -train_acc1:56.833 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.404 ♣acc5:94.750 ♣loss:0.9823 ♠best_acc1:78.8 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.298 ♦ema_acc5:95.952 ♦ema_loss:0.8515 ❤best_ema_acc1:81.3 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-139 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006206 -train_acc1:57.281 -grad_norm:1.63
+(main.py 179): INFO --> Val results: ♣acc1:78.922 ♣acc5:94.812 ♣loss:0.9638 ♠best_acc1:78.9 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.332 ♦ema_acc5:95.940 ♦ema_loss:0.8508 ❤best_ema_acc1:81.3 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-140 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006152 -train_acc1:57.490 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:78.714 ♣acc5:94.718 ♣loss:0.9625 ♠best_acc1:78.9 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.402 ♦ema_acc5:95.960 ♦ema_loss:0.8499 ❤best_ema_acc1:81.4 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-141 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006097 -train_acc1:57.424 -grad_norm:1.64
+(main.py 179): INFO --> Val results: ♣acc1:78.996 ♣acc5:94.898 ♣loss:0.9364 ♠best_acc1:79.0 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.378 ♦ema_acc5:95.974 ♦ema_loss:0.8483 ❤best_ema_acc1:81.4 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-142 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0006043 -train_acc1:57.349 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.888 ♣acc5:94.750 ♣loss:0.9616 ♠best_acc1:79.0 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.414 ♦ema_acc5:95.972 ♦ema_loss:0.8470 ❤best_ema_acc1:81.4 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-143 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005988 -train_acc1:57.431 -grad_norm:1.64
+(main.py 179): INFO --> Val results: ♣acc1:78.734 ♣acc5:94.830 ♣loss:1.0062 ♠best_acc1:79.0 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.412 ♦ema_acc5:95.974 ♦ema_loss:0.8462 ❤best_ema_acc1:81.4 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-144 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005934 -train_acc1:57.683 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.896 ♣acc5:94.750 ♣loss:0.9810 ♠best_acc1:79.0 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.414 ♦ema_acc5:96.008 ♦ema_loss:0.8453 ❤best_ema_acc1:81.4 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-145 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005879 -train_acc1:57.755 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.950 ♣acc5:94.912 ♣loss:0.9566 ♠best_acc1:79.0 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.458 ♦ema_acc5:96.004 ♦ema_loss:0.8447 ❤best_ema_acc1:81.5 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-146 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005824 -train_acc1:57.777 -grad_norm:1.68
+(main.py 179): INFO --> Val results: ♣acc1:78.894 ♣acc5:94.858 ♣loss:0.9712 ♠best_acc1:79.0 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.500 ♦ema_acc5:96.032 ♦ema_loss:0.8438 ❤best_ema_acc1:81.5 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-147 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005769 -train_acc1:57.720 -grad_norm:1.68
+(main.py 179): INFO --> Val results: ♣acc1:78.706 ♣acc5:94.858 ♣loss:1.0041 ♠best_acc1:79.0 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.514 ♦ema_acc5:96.036 ♦ema_loss:0.8437 ❤best_ema_acc1:81.5 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-148 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005714 -train_acc1:58.123 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:79.242 ♣acc5:94.906 ♣loss:0.9388 ♠best_acc1:79.2 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.566 ♦ema_acc5:96.014 ♦ema_loss:0.8428 ❤best_ema_acc1:81.6 ❤best_ema_acc5:96.0
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-149 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005659 -train_acc1:57.969 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:78.876 ♣acc5:94.876 ♣loss:0.9655 ♠best_acc1:79.2 ♠best_acc5:94.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.564 ♦ema_acc5:96.052 ♦ema_loss:0.8417 ❤best_ema_acc1:81.6 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-150 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005604 -train_acc1:58.309 -grad_norm:1.69
+(main.py 179): INFO --> Val results: ♣acc1:79.304 ♣acc5:94.994 ♣loss:0.9407 ♠best_acc1:79.3 ♠best_acc5:95.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.570 ♦ema_acc5:96.092 ♦ema_loss:0.8408 ❤best_ema_acc1:81.6 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-151 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005549 -train_acc1:58.176 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:79.116 ♣acc5:94.978 ♣loss:0.9956 ♠best_acc1:79.3 ♠best_acc5:95.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.596 ♦ema_acc5:96.080 ♦ema_loss:0.8403 ❤best_ema_acc1:81.6 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-152 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005494 -train_acc1:58.156 -grad_norm:1.72
+(main.py 179): INFO --> Val results: ♣acc1:79.084 ♣acc5:94.898 ♣loss:0.9686 ♠best_acc1:79.3 ♠best_acc5:95.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.650 ♦ema_acc5:96.090 ♦ema_loss:0.8396 ❤best_ema_acc1:81.7 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-153 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005438 -train_acc1:58.465 -grad_norm:1.72
+(main.py 179): INFO --> Val results: ♣acc1:79.176 ♣acc5:95.000 ♣loss:0.9244 ♠best_acc1:79.3 ♠best_acc5:95.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.684 ♦ema_acc5:96.062 ♦ema_loss:0.8389 ❤best_ema_acc1:81.7 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-154 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005383 -train_acc1:58.484 -grad_norm:1.73
+(main.py 179): INFO --> Val results: ♣acc1:78.908 ♣acc5:94.842 ♣loss:0.9691 ♠best_acc1:79.3 ♠best_acc5:95.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.710 ♦ema_acc5:96.052 ♦ema_loss:0.8379 ❤best_ema_acc1:81.7 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-155 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005328 -train_acc1:58.526 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:79.064 ♣acc5:95.094 ♣loss:0.9422 ♠best_acc1:79.3 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.742 ♦ema_acc5:96.076 ♦ema_loss:0.8364 ❤best_ema_acc1:81.7 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-156 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005272 -train_acc1:58.547 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:79.262 ♣acc5:95.048 ♣loss:0.9961 ♠best_acc1:79.3 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.746 ♦ema_acc5:96.108 ♦ema_loss:0.8355 ❤best_ema_acc1:81.7 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-157 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005217 -train_acc1:58.805 -grad_norm:1.77
+(main.py 179): INFO --> Val results: ♣acc1:79.514 ♣acc5:94.958 ♣loss:0.9641 ♠best_acc1:79.5 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.730 ♦ema_acc5:96.114 ♦ema_loss:0.8349 ❤best_ema_acc1:81.7 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-158 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005161 -train_acc1:58.765 -grad_norm:1.76
+(main.py 179): INFO --> Val results: ♣acc1:79.534 ♣acc5:95.124 ♣loss:0.9232 ♠best_acc1:79.5 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.756 ♦ema_acc5:96.100 ♦ema_loss:0.8344 ❤best_ema_acc1:81.8 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-159 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005106 -train_acc1:58.474 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:79.510 ♣acc5:95.122 ♣loss:1.0054 ♠best_acc1:79.5 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.772 ♦ema_acc5:96.110 ♦ema_loss:0.8337 ❤best_ema_acc1:81.8 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-160 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0005050 -train_acc1:58.665 -grad_norm:1.79
+(main.py 179): INFO --> Val results: ♣acc1:79.478 ♣acc5:94.996 ♣loss:0.9268 ♠best_acc1:79.5 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.816 ♦ema_acc5:96.102 ♦ema_loss:0.8329 ❤best_ema_acc1:81.8 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-161 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004995 -train_acc1:59.021 -grad_norm:1.79
+(main.py 179): INFO --> Val results: ♣acc1:79.784 ♣acc5:95.116 ♣loss:0.9041 ♠best_acc1:79.8 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.888 ♦ema_acc5:96.144 ♦ema_loss:0.8317 ❤best_ema_acc1:81.9 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-162 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004939 -train_acc1:58.856 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:79.736 ♣acc5:95.092 ♣loss:0.9599 ♠best_acc1:79.8 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.896 ♦ema_acc5:96.144 ♦ema_loss:0.8307 ❤best_ema_acc1:81.9 ❤best_ema_acc5:96.1
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-163 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004883 -train_acc1:58.615 -grad_norm:1.84
+(main.py 179): INFO --> Val results: ♣acc1:79.310 ♣acc5:95.006 ♣loss:0.9890 ♠best_acc1:79.8 ♠best_acc5:95.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.938 ♦ema_acc5:96.156 ♦ema_loss:0.8295 ❤best_ema_acc1:81.9 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-164 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004828 -train_acc1:59.066 -grad_norm:1.81
+(main.py 179): INFO --> Val results: ♣acc1:79.816 ♣acc5:95.180 ♣loss:0.9586 ♠best_acc1:79.8 ♠best_acc5:95.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.938 ♦ema_acc5:96.174 ♦ema_loss:0.8288 ❤best_ema_acc1:81.9 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-165 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004772 -train_acc1:59.329 -grad_norm:1.83
+(main.py 179): INFO --> Val results: ♣acc1:79.848 ♣acc5:95.260 ♣loss:0.9236 ♠best_acc1:79.8 ♠best_acc5:95.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.962 ♦ema_acc5:96.184 ♦ema_loss:0.8276 ❤best_ema_acc1:82.0 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-166 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004717 -train_acc1:59.317 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:79.846 ♣acc5:95.266 ♣loss:0.9047 ♠best_acc1:79.8 ♠best_acc5:95.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.972 ♦ema_acc5:96.182 ♦ema_loss:0.8263 ❤best_ema_acc1:82.0 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-167 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004662 -train_acc1:59.144 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:79.814 ♣acc5:95.218 ♣loss:0.9064 ♠best_acc1:79.8 ♠best_acc5:95.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:81.974 ♦ema_acc5:96.204 ♦ema_loss:0.8255 ❤best_ema_acc1:82.0 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-168 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004606 -train_acc1:59.563 -grad_norm:1.86
+(main.py 179): INFO --> Val results: ♣acc1:79.874 ♣acc5:95.244 ♣loss:0.9881 ♠best_acc1:79.9 ♠best_acc5:95.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.054 ♦ema_acc5:96.202 ♦ema_loss:0.8245 ❤best_ema_acc1:82.1 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-169 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004551 -train_acc1:59.404 -grad_norm:1.89
+(main.py 179): INFO --> Val results: ♣acc1:79.970 ♣acc5:95.308 ♣loss:0.9192 ♠best_acc1:80.0 ♠best_acc5:95.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.076 ♦ema_acc5:96.206 ♦ema_loss:0.8241 ❤best_ema_acc1:82.1 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-170 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004496 -train_acc1:59.500 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.054 ♣acc5:95.360 ♣loss:0.8879 ♠best_acc1:80.1 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.068 ♦ema_acc5:96.220 ♦ema_loss:0.8238 ❤best_ema_acc1:82.1 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-171 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004441 -train_acc1:59.893 -grad_norm:1.88
+(main.py 179): INFO --> Val results: ♣acc1:80.012 ♣acc5:95.182 ♣loss:0.9760 ♠best_acc1:80.1 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.018 ♦ema_acc5:96.222 ♦ema_loss:0.8230 ❤best_ema_acc1:82.1 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-172 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004386 -train_acc1:59.516 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.082 ♣acc5:95.244 ♣loss:0.9054 ♠best_acc1:80.1 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.042 ♦ema_acc5:96.226 ♦ema_loss:0.8224 ❤best_ema_acc1:82.1 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-173 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004331 -train_acc1:59.825 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.086 ♣acc5:95.214 ♣loss:0.8959 ♠best_acc1:80.1 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.058 ♦ema_acc5:96.244 ♦ema_loss:0.8218 ❤best_ema_acc1:82.1 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-174 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004276 -train_acc1:59.651 -grad_norm:1.90
+(main.py 179): INFO --> Val results: ♣acc1:79.966 ♣acc5:95.328 ♣loss:0.9703 ♠best_acc1:80.1 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.114 ♦ema_acc5:96.216 ♦ema_loss:0.8207 ❤best_ema_acc1:82.1 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-175 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004221 -train_acc1:60.011 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.234 ♣acc5:95.234 ♣loss:0.9114 ♠best_acc1:80.2 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.156 ♦ema_acc5:96.228 ♦ema_loss:0.8195 ❤best_ema_acc1:82.2 ❤best_ema_acc5:96.2
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-176 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004166 -train_acc1:59.779 -grad_norm:1.94
+(main.py 179): INFO --> Val results: ♣acc1:80.030 ♣acc5:95.294 ♣loss:0.9824 ♠best_acc1:80.2 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.152 ♦ema_acc5:96.262 ♦ema_loss:0.8197 ❤best_ema_acc1:82.2 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-177 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004112 -train_acc1:60.078 -grad_norm:1.95
+(main.py 179): INFO --> Val results: ♣acc1:79.974 ♣acc5:95.320 ♣loss:0.9605 ♠best_acc1:80.2 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.140 ♦ema_acc5:96.268 ♦ema_loss:0.8189 ❤best_ema_acc1:82.2 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-178 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004057 -train_acc1:60.168 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.022 ♣acc5:95.236 ♣loss:0.9674 ♠best_acc1:80.2 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.174 ♦ema_acc5:96.302 ♦ema_loss:0.8181 ❤best_ema_acc1:82.2 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-179 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0004003 -train_acc1:60.060 -grad_norm:1.98
+(main.py 179): INFO --> Val results: ♣acc1:80.086 ♣acc5:95.350 ♣loss:0.9190 ♠best_acc1:80.2 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.248 ♦ema_acc5:96.318 ♦ema_loss:0.8177 ❤best_ema_acc1:82.2 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-180 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003949 -train_acc1:60.545 -grad_norm:1.97
+(main.py 179): INFO --> Val results: ♣acc1:80.220 ♣acc5:95.286 ♣loss:0.9167 ♠best_acc1:80.2 ♠best_acc5:95.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.272 ♦ema_acc5:96.336 ♦ema_loss:0.8169 ❤best_ema_acc1:82.3 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-181 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003894 -train_acc1:60.723 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:80.532 ♣acc5:95.460 ♣loss:0.8819 ♠best_acc1:80.5 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.276 ♦ema_acc5:96.328 ♦ema_loss:0.8163 ❤best_ema_acc1:82.3 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-182 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003841 -train_acc1:60.547 -grad_norm:1.99
+(main.py 179): INFO --> Val results: ♣acc1:80.442 ♣acc5:95.466 ♣loss:0.9458 ♠best_acc1:80.5 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.290 ♦ema_acc5:96.340 ♦ema_loss:0.8155 ❤best_ema_acc1:82.3 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-183 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003787 -train_acc1:60.503 -grad_norm:2.02
+(main.py 179): INFO --> Val results: ♣acc1:80.496 ♣acc5:95.458 ♣loss:0.8910 ♠best_acc1:80.5 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.308 ♦ema_acc5:96.332 ♦ema_loss:0.8153 ❤best_ema_acc1:82.3 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-184 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003733 -train_acc1:60.856 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:80.356 ♣acc5:95.422 ♣loss:0.9532 ♠best_acc1:80.5 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.356 ♦ema_acc5:96.328 ♦ema_loss:0.8147 ❤best_ema_acc1:82.4 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-185 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003680 -train_acc1:61.009 -grad_norm:2.04
+(main.py 179): INFO --> Val results: ♣acc1:80.406 ♣acc5:95.400 ♣loss:0.9076 ♠best_acc1:80.5 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.356 ♦ema_acc5:96.342 ♦ema_loss:0.8139 ❤best_ema_acc1:82.4 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-186 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003626 -train_acc1:60.663 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.622 ♣acc5:95.518 ♣loss:0.8994 ♠best_acc1:80.6 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.412 ♦ema_acc5:96.320 ♦ema_loss:0.8126 ❤best_ema_acc1:82.4 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-187 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003573 -train_acc1:60.981 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:80.496 ♣acc5:95.422 ♣loss:0.9382 ♠best_acc1:80.6 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.420 ♦ema_acc5:96.314 ♦ema_loss:0.8120 ❤best_ema_acc1:82.4 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-188 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003520 -train_acc1:61.194 -grad_norm:2.08
+(main.py 179): INFO --> Val results: ♣acc1:80.644 ♣acc5:95.522 ♣loss:0.9159 ♠best_acc1:80.6 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.464 ♦ema_acc5:96.320 ♦ema_loss:0.8114 ❤best_ema_acc1:82.5 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-189 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003468 -train_acc1:61.045 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.782 ♣acc5:95.510 ♣loss:0.8984 ♠best_acc1:80.8 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.490 ♦ema_acc5:96.318 ♦ema_loss:0.8107 ❤best_ema_acc1:82.5 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-190 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003415 -train_acc1:61.226 -grad_norm:2.12
+(main.py 179): INFO --> Val results: ♣acc1:80.716 ♣acc5:95.524 ♣loss:0.8607 ♠best_acc1:80.8 ♠best_acc5:95.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.518 ♦ema_acc5:96.302 ♦ema_loss:0.8106 ❤best_ema_acc1:82.5 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-191 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003363 -train_acc1:61.448 -grad_norm:2.10
+(main.py 179): INFO --> Val results: ♣acc1:80.774 ♣acc5:95.556 ♣loss:0.8811 ♠best_acc1:80.8 ♠best_acc5:95.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.530 ♦ema_acc5:96.340 ♦ema_loss:0.8095 ❤best_ema_acc1:82.5 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-192 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003311 -train_acc1:61.348 -grad_norm:2.12
+(main.py 179): INFO --> Val results: ♣acc1:80.694 ♣acc5:95.514 ♣loss:0.8572 ♠best_acc1:80.8 ♠best_acc5:95.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.594 ♦ema_acc5:96.346 ♦ema_loss:0.8088 ❤best_ema_acc1:82.6 ❤best_ema_acc5:96.3
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-193 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003259 -train_acc1:61.496 -grad_norm:2.13
+(main.py 179): INFO --> Val results: ♣acc1:80.682 ♣acc5:95.532 ♣loss:0.9122 ♠best_acc1:80.8 ♠best_acc5:95.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.614 ♦ema_acc5:96.366 ♦ema_loss:0.8082 ❤best_ema_acc1:82.6 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-194 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003207 -train_acc1:61.377 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:81.076 ♣acc5:95.618 ♣loss:0.9001 ♠best_acc1:81.1 ♠best_acc5:95.6
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.566 ♦ema_acc5:96.362 ♦ema_loss:0.8076 ❤best_ema_acc1:82.6 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-195 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003156 -train_acc1:61.973 -grad_norm:2.17
+(main.py 179): INFO --> Val results: ♣acc1:80.950 ♣acc5:95.684 ♣loss:0.8767 ♠best_acc1:81.1 ♠best_acc5:95.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.598 ♦ema_acc5:96.368 ♦ema_loss:0.8067 ❤best_ema_acc1:82.6 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-196 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003105 -train_acc1:62.147 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.952 ♣acc5:95.504 ♣loss:0.9098 ♠best_acc1:81.1 ♠best_acc5:95.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.670 ♦ema_acc5:96.368 ♦ema_loss:0.8067 ❤best_ema_acc1:82.7 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-197 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003054 -train_acc1:62.161 -grad_norm:2.18
+(main.py 179): INFO --> Val results: ♣acc1:80.984 ♣acc5:95.644 ♣loss:0.8836 ♠best_acc1:81.1 ♠best_acc5:95.7
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.674 ♦ema_acc5:96.380 ♦ema_loss:0.8066 ❤best_ema_acc1:82.7 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-198 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0003003 -train_acc1:61.943 -grad_norm:2.20
+(main.py 179): INFO --> Val results: ♣acc1:80.926 ♣acc5:95.798 ♣loss:0.9067 ♠best_acc1:81.1 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.724 ♦ema_acc5:96.390 ♦ema_loss:0.8056 ❤best_ema_acc1:82.7 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-199 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002952 -train_acc1:61.973 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:80.872 ♣acc5:95.590 ♣loss:0.9485 ♠best_acc1:81.1 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.734 ♦ema_acc5:96.390 ♦ema_loss:0.8054 ❤best_ema_acc1:82.7 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-200 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002902 -train_acc1:62.151 -grad_norm:2.24
+(main.py 179): INFO --> Val results: ♣acc1:81.058 ♣acc5:95.694 ♣loss:0.9162 ♠best_acc1:81.1 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.822 ♦ema_acc5:96.406 ♦ema_loss:0.8048 ❤best_ema_acc1:82.8 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-201 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002852 -train_acc1:62.495 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:81.192 ♣acc5:95.740 ♣loss:0.8711 ♠best_acc1:81.2 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.846 ♦ema_acc5:96.418 ♦ema_loss:0.8041 ❤best_ema_acc1:82.8 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-202 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002803 -train_acc1:62.425 -grad_norm:2.28
+(main.py 179): INFO --> Val results: ♣acc1:81.012 ♣acc5:95.726 ♣loss:0.8813 ♠best_acc1:81.2 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.846 ♦ema_acc5:96.430 ♦ema_loss:0.8027 ❤best_ema_acc1:82.8 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-203 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002753 -train_acc1:62.438 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.154 ♣acc5:95.704 ♣loss:0.8466 ♠best_acc1:81.2 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.886 ♦ema_acc5:96.424 ♦ema_loss:0.8029 ❤best_ema_acc1:82.9 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-204 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002704 -train_acc1:62.471 -grad_norm:2.28
+(main.py 179): INFO --> Val results: ♣acc1:81.050 ♣acc5:95.742 ♣loss:0.8529 ♠best_acc1:81.2 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.930 ♦ema_acc5:96.436 ♦ema_loss:0.8027 ❤best_ema_acc1:82.9 ❤best_ema_acc5:96.4
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-205 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002656 -train_acc1:62.640 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.270 ♣acc5:95.846 ♣loss:0.8714 ♠best_acc1:81.3 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.914 ♦ema_acc5:96.452 ♦ema_loss:0.8024 ❤best_ema_acc1:82.9 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-206 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002607 -train_acc1:62.664 -grad_norm:2.31
+(main.py 179): INFO --> Val results: ♣acc1:81.474 ♣acc5:95.672 ♣loss:0.8694 ♠best_acc1:81.5 ♠best_acc5:95.8
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.908 ♦ema_acc5:96.464 ♦ema_loss:0.8019 ❤best_ema_acc1:82.9 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-207 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002559 -train_acc1:62.844 -grad_norm:2.32
+(main.py 179): INFO --> Val results: ♣acc1:81.358 ♣acc5:95.860 ♣loss:0.8637 ♠best_acc1:81.5 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.936 ♦ema_acc5:96.458 ♦ema_loss:0.8014 ❤best_ema_acc1:82.9 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-208 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002511 -train_acc1:62.884 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:81.402 ♣acc5:95.764 ♣loss:0.8678 ♠best_acc1:81.5 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.966 ♦ema_acc5:96.474 ♦ema_loss:0.8007 ❤best_ema_acc1:83.0 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-209 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002464 -train_acc1:63.217 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.456 ♣acc5:95.758 ♣loss:0.9049 ♠best_acc1:81.5 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:82.960 ♦ema_acc5:96.460 ♦ema_loss:0.7999 ❤best_ema_acc1:83.0 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-210 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002416 -train_acc1:63.405 -grad_norm:2.39
+(main.py 179): INFO --> Val results: ♣acc1:81.518 ♣acc5:95.866 ♣loss:0.8433 ♠best_acc1:81.5 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.070 ♦ema_acc5:96.450 ♦ema_loss:0.7991 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-211 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002370 -train_acc1:63.261 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.532 ♣acc5:95.874 ♣loss:0.8523 ♠best_acc1:81.5 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.066 ♦ema_acc5:96.472 ♦ema_loss:0.7989 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-212 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002323 -train_acc1:63.614 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.710 ♣acc5:95.898 ♣loss:0.8455 ♠best_acc1:81.7 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.094 ♦ema_acc5:96.468 ♦ema_loss:0.7983 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-213 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002277 -train_acc1:63.269 -grad_norm:2.48
+(main.py 179): INFO --> Val results: ♣acc1:81.656 ♣acc5:95.832 ♣loss:0.8601 ♠best_acc1:81.7 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.084 ♦ema_acc5:96.462 ♦ema_loss:0.7980 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-214 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002231 -train_acc1:63.512 -grad_norm:2.47
+(main.py 179): INFO --> Val results: ♣acc1:81.568 ♣acc5:95.844 ♣loss:0.8936 ♠best_acc1:81.7 ♠best_acc5:95.9
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.050 ♦ema_acc5:96.496 ♦ema_loss:0.7978 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-215 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002186 -train_acc1:63.510 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.612 ♣acc5:96.040 ♣loss:0.8744 ♠best_acc1:81.7 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.112 ♦ema_acc5:96.532 ♦ema_loss:0.7974 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-216 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002140 -train_acc1:63.945 -grad_norm:2.46
+(main.py 179): INFO --> Val results: ♣acc1:81.640 ♣acc5:95.860 ♣loss:0.8955 ♠best_acc1:81.7 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.136 ♦ema_acc5:96.532 ♦ema_loss:0.7968 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.5
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-217 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002096 -train_acc1:63.650 -grad_norm:2.52
+(main.py 179): INFO --> Val results: ♣acc1:81.796 ♣acc5:95.966 ♣loss:0.8555 ♠best_acc1:81.8 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.130 ♦ema_acc5:96.552 ♦ema_loss:0.7965 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-218 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002051 -train_acc1:63.950 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.806 ♣acc5:96.026 ♣loss:0.8634 ♠best_acc1:81.8 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.122 ♦ema_acc5:96.566 ♦ema_loss:0.7963 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-219 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0002007 -train_acc1:63.858 -grad_norm:2.51
+(main.py 179): INFO --> Val results: ♣acc1:81.816 ♣acc5:95.896 ♣loss:0.8829 ♠best_acc1:81.8 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.140 ♦ema_acc5:96.578 ♦ema_loss:0.7960 ❤best_ema_acc1:83.1 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-220 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001964 -train_acc1:64.018 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.536 ♣acc5:95.868 ♣loss:0.8816 ♠best_acc1:81.8 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.162 ♦ema_acc5:96.548 ♦ema_loss:0.7957 ❤best_ema_acc1:83.2 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-221 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001921 -train_acc1:64.195 -grad_norm:2.62
+(main.py 179): INFO --> Val results: ♣acc1:81.892 ♣acc5:96.004 ♣loss:0.8225 ♠best_acc1:81.9 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.180 ♦ema_acc5:96.546 ♦ema_loss:0.7952 ❤best_ema_acc1:83.2 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-222 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001878 -train_acc1:64.435 -grad_norm:2.55
+(main.py 179): INFO --> Val results: ♣acc1:81.920 ♣acc5:95.976 ♣loss:0.8693 ♠best_acc1:81.9 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.236 ♦ema_acc5:96.534 ♦ema_loss:0.7945 ❤best_ema_acc1:83.2 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-223 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001835 -train_acc1:64.812 -grad_norm:2.58
+(main.py 179): INFO --> Val results: ♣acc1:81.786 ♣acc5:95.866 ♣loss:0.8959 ♠best_acc1:81.9 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.206 ♦ema_acc5:96.526 ♦ema_loss:0.7938 ❤best_ema_acc1:83.2 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-224 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001793 -train_acc1:64.561 -grad_norm:nan
+(main.py 179): INFO --> Val results: ♣acc1:81.976 ♣acc5:95.980 ♣loss:0.8504 ♠best_acc1:82.0 ♠best_acc5:96.0
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.260 ♦ema_acc5:96.532 ♦ema_loss:0.7935 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-225 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001752 -train_acc1:64.721 -grad_norm:2.66
+(main.py 179): INFO --> Val results: ♣acc1:82.060 ♣acc5:96.072 ♣loss:0.8549 ♠best_acc1:82.1 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.270 ♦ema_acc5:96.542 ♦ema_loss:0.7931 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-226 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001710 -train_acc1:64.698 -grad_norm:2.72
+(main.py 179): INFO --> Val results: ♣acc1:81.960 ♣acc5:95.946 ♣loss:0.8556 ♠best_acc1:82.1 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.280 ♦ema_acc5:96.536 ♦ema_loss:0.7929 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-227 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001670 -train_acc1:65.022 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:81.964 ♣acc5:96.016 ♣loss:0.8670 ♠best_acc1:82.1 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.290 ♦ema_acc5:96.524 ♦ema_loss:0.7926 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-228 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001629 -train_acc1:65.094 -grad_norm:2.71
+(main.py 179): INFO --> Val results: ♣acc1:82.058 ♣acc5:96.012 ♣loss:0.8598 ♠best_acc1:82.1 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.318 ♦ema_acc5:96.526 ♦ema_loss:0.7925 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-229 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001589 -train_acc1:64.955 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.014 ♣acc5:96.034 ♣loss:0.8669 ♠best_acc1:82.1 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.322 ♦ema_acc5:96.532 ♦ema_loss:0.7922 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-230 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001550 -train_acc1:65.281 -grad_norm:2.79
+(main.py 179): INFO --> Val results: ♣acc1:82.156 ♣acc5:96.114 ♣loss:0.8442 ♠best_acc1:82.2 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.340 ♦ema_acc5:96.546 ♦ema_loss:0.7919 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-231 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001511 -train_acc1:65.706 -grad_norm:2.77
+(main.py 179): INFO --> Val results: ♣acc1:82.136 ♣acc5:95.946 ♣loss:0.8376 ♠best_acc1:82.2 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.310 ♦ema_acc5:96.574 ♦ema_loss:0.7922 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-232 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001472 -train_acc1:65.472 -grad_norm:2.81
+(main.py 179): INFO --> Val results: ♣acc1:82.282 ♣acc5:96.004 ♣loss:0.8426 ♠best_acc1:82.3 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.350 ♦ema_acc5:96.552 ♦ema_loss:0.7917 ❤best_ema_acc1:83.3 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-233 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001434 -train_acc1:65.788 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.010 ♣acc5:96.048 ♣loss:0.8683 ♠best_acc1:82.3 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.358 ♦ema_acc5:96.552 ♦ema_loss:0.7914 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-234 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001396 -train_acc1:65.918 -grad_norm:2.84
+(main.py 179): INFO --> Val results: ♣acc1:82.264 ♣acc5:96.072 ♣loss:0.8371 ♠best_acc1:82.3 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.336 ♦ema_acc5:96.552 ♦ema_loss:0.7915 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-235 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001359 -train_acc1:65.578 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.356 ♣acc5:96.118 ♣loss:0.8327 ♠best_acc1:82.4 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.312 ♦ema_acc5:96.546 ♦ema_loss:0.7918 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-236 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001322 -train_acc1:66.029 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.184 ♣acc5:96.004 ♣loss:0.8570 ♠best_acc1:82.4 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.350 ♦ema_acc5:96.534 ♦ema_loss:0.7916 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-237 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001286 -train_acc1:65.833 -grad_norm:2.91
+(main.py 179): INFO --> Val results: ♣acc1:82.306 ♣acc5:96.078 ♣loss:0.8397 ♠best_acc1:82.4 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.372 ♦ema_acc5:96.518 ♦ema_loss:0.7916 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-238 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001250 -train_acc1:65.956 -grad_norm:2.91
+(main.py 179): INFO --> Val results: ♣acc1:82.410 ♣acc5:96.094 ♣loss:0.8682 ♠best_acc1:82.4 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.404 ♦ema_acc5:96.526 ♦ema_loss:0.7916 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-239 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001215 -train_acc1:66.123 -grad_norm:2.93
+(main.py 179): INFO --> Val results: ♣acc1:82.364 ♣acc5:96.052 ♣loss:0.8447 ♠best_acc1:82.4 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.414 ♦ema_acc5:96.534 ♦ema_loss:0.7914 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-240 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001180 -train_acc1:66.398 -grad_norm:2.93
+(main.py 179): INFO --> Val results: ♣acc1:82.500 ♣acc5:96.088 ♣loss:0.8441 ♠best_acc1:82.5 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.392 ♦ema_acc5:96.518 ♦ema_loss:0.7916 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-241 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001146 -train_acc1:66.156 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.474 ♣acc5:96.126 ♣loss:0.8386 ♠best_acc1:82.5 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.388 ♦ema_acc5:96.522 ♦ema_loss:0.7916 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-242 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001112 -train_acc1:66.667 -grad_norm:3.01
+(main.py 179): INFO --> Val results: ♣acc1:82.502 ♣acc5:96.106 ♣loss:0.8901 ♠best_acc1:82.5 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.424 ♦ema_acc5:96.502 ♦ema_loss:0.7921 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-243 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001078 -train_acc1:66.839 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.400 ♣acc5:96.132 ♣loss:0.8646 ♠best_acc1:82.5 ♠best_acc5:96.1
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.402 ♦ema_acc5:96.500 ♦ema_loss:0.7924 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-244 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001045 -train_acc1:66.764 -grad_norm:3.07
+(main.py 179): INFO --> Val results: ♣acc1:82.634 ♣acc5:96.166 ♣loss:0.8388 ♠best_acc1:82.6 ♠best_acc5:96.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.404 ♦ema_acc5:96.506 ♦ema_loss:0.7925 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-245 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0001013 -train_acc1:67.097 -grad_norm:3.10
+(main.py 179): INFO --> Val results: ♣acc1:82.578 ♣acc5:96.148 ♣loss:0.8048 ♠best_acc1:82.6 ♠best_acc5:96.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.420 ♦ema_acc5:96.500 ♦ema_loss:0.7925 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-246 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000981 -train_acc1:66.974 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.438 ♣acc5:96.136 ♣loss:0.8577 ♠best_acc1:82.6 ♠best_acc5:96.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.420 ♦ema_acc5:96.488 ♦ema_loss:0.7926 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-247 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000950 -train_acc1:67.130 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.556 ♣acc5:96.214 ♣loss:0.8384 ♠best_acc1:82.6 ♠best_acc5:96.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.424 ♦ema_acc5:96.516 ♦ema_loss:0.7929 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-248 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000919 -train_acc1:67.343 -grad_norm:3.20
+(main.py 179): INFO --> Val results: ♣acc1:82.506 ♣acc5:96.198 ♣loss:0.8358 ♠best_acc1:82.6 ♠best_acc5:96.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.412 ♦ema_acc5:96.494 ♦ema_loss:0.7928 ❤best_ema_acc1:83.4 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-249 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000889 -train_acc1:67.131 -grad_norm:3.20
+(main.py 179): INFO --> Val results: ♣acc1:82.682 ♣acc5:96.142 ♣loss:0.8876 ♠best_acc1:82.7 ♠best_acc5:96.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.454 ♦ema_acc5:96.496 ♦ema_loss:0.7931 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-250 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000859 -train_acc1:67.498 -grad_norm:3.26
+(main.py 179): INFO --> Val results: ♣acc1:82.678 ♣acc5:96.220 ♣loss:0.8349 ♠best_acc1:82.7 ♠best_acc5:96.2
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.468 ♦ema_acc5:96.522 ♦ema_loss:0.7933 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-251 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000829 -train_acc1:67.616 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.714 ♣acc5:96.274 ♣loss:0.8123 ♠best_acc1:82.7 ♠best_acc5:96.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.486 ♦ema_acc5:96.526 ♦ema_loss:0.7936 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-252 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000801 -train_acc1:67.373 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.750 ♣acc5:96.212 ♣loss:0.7958 ♠best_acc1:82.8 ♠best_acc5:96.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.504 ♦ema_acc5:96.506 ♦ema_loss:0.7942 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-253 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000772 -train_acc1:67.826 -grad_norm:3.31
+(main.py 179): INFO --> Val results: ♣acc1:82.704 ♣acc5:96.220 ♣loss:0.8543 ♠best_acc1:82.8 ♠best_acc5:96.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.500 ♦ema_acc5:96.530 ♦ema_loss:0.7948 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-254 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000745 -train_acc1:67.896 -grad_norm:3.32
+(main.py 179): INFO --> Val results: ♣acc1:82.628 ♣acc5:96.116 ♣loss:0.8313 ♠best_acc1:82.8 ♠best_acc5:96.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.488 ♦ema_acc5:96.510 ♦ema_loss:0.7953 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-255 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000718 -train_acc1:67.861 -grad_norm:3.34
+(main.py 179): INFO --> Val results: ♣acc1:82.670 ♣acc5:96.158 ♣loss:0.8457 ♠best_acc1:82.8 ♠best_acc5:96.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.496 ♦ema_acc5:96.510 ♦ema_loss:0.7962 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-256 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000691 -train_acc1:67.900 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.670 ♣acc5:96.242 ♣loss:0.8579 ♠best_acc1:82.8 ♠best_acc5:96.3
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.478 ♦ema_acc5:96.498 ♦ema_loss:0.7967 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-257 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000665 -train_acc1:68.397 -grad_norm:3.51
+(main.py 179): INFO --> Val results: ♣acc1:82.820 ♣acc5:96.354 ♣loss:0.8457 ♠best_acc1:82.8 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.516 ♦ema_acc5:96.486 ♦ema_loss:0.7970 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-258 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000640 -train_acc1:68.303 -grad_norm:3.47
+(main.py 179): INFO --> Val results: ♣acc1:82.774 ♣acc5:96.188 ♣loss:0.8455 ♠best_acc1:82.8 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.494 ♦ema_acc5:96.496 ♦ema_loss:0.7973 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-259 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000615 -train_acc1:68.409 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.836 ♣acc5:96.230 ♣loss:0.8709 ♠best_acc1:82.8 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.486 ♦ema_acc5:96.504 ♦ema_loss:0.7975 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-260 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000590 -train_acc1:68.342 -grad_norm:3.61
+(main.py 179): INFO --> Val results: ♣acc1:82.746 ♣acc5:96.258 ♣loss:0.8205 ♠best_acc1:82.8 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.474 ♦ema_acc5:96.506 ♦ema_loss:0.7979 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-261 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000566 -train_acc1:68.528 -grad_norm:3.52
+(main.py 179): INFO --> Val results: ♣acc1:82.904 ♣acc5:96.170 ♣loss:0.8703 ♠best_acc1:82.9 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.464 ♦ema_acc5:96.482 ♦ema_loss:0.7985 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-262 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000543 -train_acc1:68.623 -grad_norm:3.54
+(main.py 179): INFO --> Val results: ♣acc1:82.802 ♣acc5:96.270 ♣loss:0.8271 ♠best_acc1:82.9 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.450 ♦ema_acc5:96.484 ♦ema_loss:0.7990 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-263 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000520 -train_acc1:68.915 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.844 ♣acc5:96.336 ♣loss:0.8189 ♠best_acc1:82.9 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.432 ♦ema_acc5:96.492 ♦ema_loss:0.8002 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-264 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000498 -train_acc1:68.639 -grad_norm:3.63
+(main.py 179): INFO --> Val results: ♣acc1:82.890 ♣acc5:96.312 ♣loss:0.8028 ♠best_acc1:82.9 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.438 ♦ema_acc5:96.498 ♦ema_loss:0.8008 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-265 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000477 -train_acc1:68.693 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.900 ♣acc5:96.252 ♣loss:0.8095 ♠best_acc1:82.9 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.436 ♦ema_acc5:96.480 ♦ema_loss:0.8011 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-266 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000456 -train_acc1:68.809 -grad_norm:3.61
+(main.py 179): INFO --> Val results: ♣acc1:82.908 ♣acc5:96.320 ♣loss:0.8154 ♠best_acc1:82.9 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.418 ♦ema_acc5:96.504 ♦ema_loss:0.8016 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-267 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000435 -train_acc1:69.163 -grad_norm:3.68
+(main.py 179): INFO --> Val results: ♣acc1:82.956 ♣acc5:96.272 ♣loss:0.8222 ♠best_acc1:83.0 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.418 ♦ema_acc5:96.490 ♦ema_loss:0.8017 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-268 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000416 -train_acc1:69.081 -grad_norm:3.59
+(main.py 179): INFO --> Val results: ♣acc1:82.966 ♣acc5:96.304 ♣loss:0.8361 ♠best_acc1:83.0 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.424 ♦ema_acc5:96.488 ♦ema_loss:0.8023 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-269 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000396 -train_acc1:69.494 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.018 ♣acc5:96.284 ♣loss:0.8281 ♠best_acc1:83.0 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.412 ♦ema_acc5:96.484 ♦ema_loss:0.8027 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-270 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000378 -train_acc1:69.388 -grad_norm:3.71
+(main.py 179): INFO --> Val results: ♣acc1:83.056 ♣acc5:96.336 ♣loss:0.8356 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.416 ♦ema_acc5:96.472 ♦ema_loss:0.8029 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-271 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000360 -train_acc1:69.448 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.132 ♣acc5:96.328 ♣loss:0.8310 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.392 ♦ema_acc5:96.480 ♦ema_loss:0.8034 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-272 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000342 -train_acc1:69.197 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.886 ♣acc5:96.292 ♣loss:0.8171 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.396 ♦ema_acc5:96.476 ♦ema_loss:0.8033 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-273 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000325 -train_acc1:69.688 -grad_norm:3.76
+(main.py 179): INFO --> Val results: ♣acc1:83.016 ♣acc5:96.284 ♣loss:0.8151 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.396 ♦ema_acc5:96.470 ♦ema_loss:0.8042 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-274 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000309 -train_acc1:69.321 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:82.944 ♣acc5:96.336 ♣loss:0.8338 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.352 ♦ema_acc5:96.464 ♦ema_loss:0.8048 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-275 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000293 -train_acc1:69.711 -grad_norm:3.89
+(main.py 179): INFO --> Val results: ♣acc1:83.030 ♣acc5:96.304 ♣loss:0.8247 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.352 ♦ema_acc5:96.484 ♦ema_loss:0.8051 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-276 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000278 -train_acc1:69.604 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.062 ♣acc5:96.304 ♣loss:0.8253 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.366 ♦ema_acc5:96.464 ♦ema_loss:0.8053 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-277 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000264 -train_acc1:69.739 -grad_norm:3.82
+(main.py 179): INFO --> Val results: ♣acc1:83.104 ♣acc5:96.288 ♣loss:0.8290 ♠best_acc1:83.1 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.356 ♦ema_acc5:96.464 ♦ema_loss:0.8056 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-278 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000250 -train_acc1:70.098 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.198 ♣acc5:96.346 ♣loss:0.8153 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.376 ♦ema_acc5:96.462 ♦ema_loss:0.8059 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-279 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000237 -train_acc1:69.772 -grad_norm:3.87
+(main.py 179): INFO --> Val results: ♣acc1:83.120 ♣acc5:96.336 ♣loss:0.8352 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.364 ♦ema_acc5:96.456 ♦ema_loss:0.8059 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-280 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000224 -train_acc1:70.000 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.142 ♣acc5:96.364 ♣loss:0.8248 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.362 ♦ema_acc5:96.470 ♦ema_loss:0.8069 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-281 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000212 -train_acc1:70.099 -grad_norm:3.98
+(main.py 179): INFO --> Val results: ♣acc1:83.222 ♣acc5:96.352 ♣loss:0.8127 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.376 ♦ema_acc5:96.470 ♦ema_loss:0.8072 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-282 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000201 -train_acc1:70.068 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.230 ♣acc5:96.376 ♣loss:0.8078 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.342 ♦ema_acc5:96.464 ♦ema_loss:0.8075 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-283 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000190 -train_acc1:70.171 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.248 ♣acc5:96.384 ♣loss:0.8142 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.354 ♦ema_acc5:96.468 ♦ema_loss:0.8082 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-284 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000180 -train_acc1:69.979 -grad_norm:4.01
+(main.py 179): INFO --> Val results: ♣acc1:83.162 ♣acc5:96.314 ♣loss:0.8668 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.328 ♦ema_acc5:96.466 ♦ema_loss:0.8089 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-285 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000170 -train_acc1:70.375 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.212 ♣acc5:96.362 ♣loss:0.8276 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.330 ♦ema_acc5:96.480 ♦ema_loss:0.8088 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-286 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000161 -train_acc1:69.982 -grad_norm:3.99
+(main.py 179): INFO --> Val results: ♣acc1:83.212 ♣acc5:96.368 ♣loss:0.8424 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.344 ♦ema_acc5:96.488 ♦ema_loss:0.8095 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-287 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000153 -train_acc1:70.535 -grad_norm:4.07
+(main.py 179): INFO --> Val results: ♣acc1:83.114 ♣acc5:96.354 ♣loss:0.8268 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.346 ♦ema_acc5:96.480 ♦ema_loss:0.8099 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-288 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000145 -train_acc1:70.233 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.178 ♣acc5:96.318 ♣loss:0.8369 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.358 ♦ema_acc5:96.454 ♦ema_loss:0.8103 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-289 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000138 -train_acc1:70.433 -grad_norm:4.03
+(main.py 179): INFO --> Val results: ♣acc1:83.210 ♣acc5:96.324 ♣loss:0.8383 ♠best_acc1:83.2 ♠best_acc5:96.4
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.380 ♦ema_acc5:96.460 ♦ema_loss:0.8105 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-290 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000131 -train_acc1:70.473 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.290 ♣acc5:96.450 ♣loss:0.7903 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.392 ♦ema_acc5:96.434 ♦ema_loss:0.8108 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-291 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000125 -train_acc1:69.968 -grad_norm:4.10
+(main.py 179): INFO --> Val results: ♣acc1:83.246 ♣acc5:96.320 ♣loss:0.8383 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.396 ♦ema_acc5:96.444 ♦ema_loss:0.8113 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-292 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000120 -train_acc1:70.343 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.190 ♣acc5:96.332 ♣loss:0.8321 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.404 ♦ema_acc5:96.450 ♦ema_loss:0.8116 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-293 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000115 -train_acc1:70.532 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.250 ♣acc5:96.364 ♣loss:0.8276 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.396 ♦ema_acc5:96.444 ♦ema_loss:0.8120 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-294 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000111 -train_acc1:70.314 -grad_norm:4.11
+(main.py 179): INFO --> Val results: ♣acc1:83.298 ♣acc5:96.404 ♣loss:0.8092 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.400 ♦ema_acc5:96.428 ♦ema_loss:0.8124 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-295 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000108 -train_acc1:70.831 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.202 ♣acc5:96.332 ♣loss:0.8304 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.388 ♦ema_acc5:96.412 ♦ema_loss:0.8126 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-296 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000105 -train_acc1:70.534 -grad_norm:4.26
+(main.py 179): INFO --> Val results: ♣acc1:83.242 ♣acc5:96.334 ♣loss:0.8153 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.398 ♦ema_acc5:96.404 ♦ema_loss:0.8133 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-297 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000103 -train_acc1:70.759 -grad_norm:4.20
+(main.py 179): INFO --> Val results: ♣acc1:83.222 ♣acc5:96.370 ♣loss:0.8016 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.388 ♦ema_acc5:96.414 ♦ema_loss:0.8134 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-298 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000101 -train_acc1:70.861 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.284 ♣acc5:96.392 ♣loss:0.8027 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.412 ♦ema_acc5:96.416 ♦ema_loss:0.8137 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-299 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000100 -train_acc1:70.454 -grad_norm:4.21
+(main.py 179): INFO --> Val results: ♣acc1:83.224 ♣acc5:96.352 ♣loss:0.8061 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.404 ♦ema_acc5:96.414 ♦ema_loss:0.8143 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 161): INFO ########## Train epoch-300 weight_decay: 0.05 ema_decay: 0.99992 ##########
+(main.py 168): INFO -learning rate:0.0000100 -train_acc1:70.702 -grad_norm:inf
+(main.py 179): INFO --> Val results: ♣acc1:83.310 ♣acc5:96.356 ♣loss:0.8096 ♠best_acc1:83.3 ♠best_acc5:96.5
+(main.py 213): INFO Training time 2 days, 22:47:42
+(main.py 195): INFO --> Ema val results: ♦ema_acc1:83.394 ♦ema_acc5:96.418 ♦ema_loss:0.8142 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
+(main.py 208): INFO ------------------------------------------------------------------------------------------------------------------
+(main.py 213): INFO Training time 2 days, 22:47:44
