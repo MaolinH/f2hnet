@@ -1,4 +1,5 @@
 # F2HNet: Bridging Local Details and Global Context via Focal-to-Holistic Mixing
+### Pre-train weights are comming.
 
 ## Classification on Imagen-1K (Train and infer throughput measured on an RTX 4090 GPU)
 
