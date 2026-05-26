@@ -1,0 +1,1 @@
+tools/train.sh configs/f2hnet/mask_rcnn_f2hnet_small_3x.py 4 --cfg-options model.backbone.init_cfg.checkpoint='checkpoints/small.pth'

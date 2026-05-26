@@ -1,0 +1,16 @@
+ MODEL:
+  TYPE: F2HNET
+  NAME: F2HNET_Small
+  DROP_PATH_RATE: 0.3
+  F2HNET:
+    DIMS: (64,128,320,512)
+    DEPTHS: (3,12,24,4)
+    NUM_HEADS: (2, 4, 10, 16)
+    DILATION: (8,4,1,1)   # (8,4,2,1)
+    SEQ_SIZE: (7,7,14,7)   # (7,7,14,7)
+    KERNEL_SIZES: (3,3,3,3)
+    MLP_RATIO: (4,4,4,4)
+    RPE: True
+    INIT_SCALE: (None,None, 1., 1.)
+
+
