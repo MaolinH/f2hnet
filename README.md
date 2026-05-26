@@ -1,6 +1,6 @@
 # More Codes are Coming!!!!!
 
-## Classification on Imagen-1K
+## Classification on Imagen-1K (Train and infer throughput measured on an RTX 4090 GPU)
 
 | Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Top-1(%) | train log                               |
 |:--------:|:---------:|:--------:|:------------:|:------------:|:--------:| --------------------------------------- |
