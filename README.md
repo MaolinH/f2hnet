@@ -1,5 +1,5 @@
 # F2HNet: Bridging Local Details and Global Context via Focal-to-Holistic Mixing
-### Pre-train weights are comming.
+--Pre-train weights are comming.
 
 ## Classification on Imagen-1K (Train and infer throughput measured on an RTX 4090 GPU)
 
@@ -60,3 +60,6 @@ torchrun --standalone --nproc_per_node=4 --master_port 1235 \
 ```
 ## Cite F2HNet
 If you find this repository useful, please give us stars and use the following BibTeX entry for citation.
+```
+Under Review...
+```
