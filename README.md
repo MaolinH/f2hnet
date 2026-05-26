@@ -15,7 +15,8 @@
 | 1x       | F2HNet-T | 49.5      | 272      | 45.1   | 67.7        | 49.5        | 40.9   | 64.5        | 43.8        | [log](./ckpts/det/Tiny/mask_rcnn_f2hnet_tiny_1x/log/tiny-log.log) |
 | 3x       | F2HNet-T | 49.5      | 272      | 48.3   | 70.1        | 53.0        | 43.2   | 67.1        | 46.2        | [log](./ckpts/det/Tiny/mask_rcnn_f2hnet_tiny_3x/log/tiny-log.log) |
 | 3x       | F2HNet-S | 64.9      | 363      | 49.5   | 70.8        | 54.3        | 44.0   | 68.1        | 47.4        | [log](./ckpts/det/Small/mask_rcnn_f2hnet_small_3x/log/log.log)    |
-| 3x       | F2HNet-B | 97.0      | 494      | 50.4   | 71.5        | 56.0        | 44.7   | 68.7        | 48.3        | [log](./ckpts/det/Base/mask_rcnn_f2hnet_base_3x/log/log.log)      |
+| 3x       | F2HNet-B | 97.0      | 494      | 50.4   | 71.5        | 56.0        | 44.7   | 68.7        | 48.3        | [log](./f2hnet/ckpts/det/base/mask_rcnn_f2hnet_base_3x
+/log)      |
 
 ## Semantic Sementation with UperNet 160K on ADE20K
 
