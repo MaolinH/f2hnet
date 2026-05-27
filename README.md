@@ -1,7 +1,6 @@
 # F2HNet: Bridging Local Details and Global Context via Focal-to-Holistic Mixing
 
-## Classification on Imagen-1K 
-Train and infer throughput are measured on an RTX 4090 GPU. 
+## Classification on Imagen-1K  
 
 | Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Top-1(%) |Top-5(%)| train log                             | checkpoint| 
 |:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:------:| --------------------------------------- |:------:|
