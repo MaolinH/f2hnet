@@ -24,15 +24,17 @@ naes = dset.ImageFolder(root="/disk/data1/Rub_datasets/A/imagenet-a", transform=
 nae_loader = torch.utils.data.DataLoader(naes, batch_size=128, shuffle=False,
                                          num_workers=4, pin_memory=True)
 
-# 加载fhnet
+# 加载F2HNet-Tiny
 # net = f2hnet_tiny()
 # checkpoint = torch.load('ckpts/f2hnet_tiny.pth', map_location='cpu')
 # net.load_state_dict(checkpoint['model'], strict=False)
 
+# 加载F2HNet-Small
 # net = f2hnet_small()
 # checkpoint = torch.load('ckpts/f2hnet_small.pth', map_location='cpu')
 # net.load_state_dict(checkpoint['model'], strict=False)
 
+# 加载F2HNet-Base
 net = f2hnet_base()
 checkpoint = torch.load('ckpts/f2hnet_base.pth', map_location='cpu')
 net.load_state_dict(checkpoint['model'], strict=False)
