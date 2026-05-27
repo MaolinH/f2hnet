@@ -35,28 +35,6 @@ The evaluation metric for IK/A/R/Sketch/V2 is Top-1 Accuracy(%), and the metric 
 
 ## Installation:  [classification](classification/README.md),  [Object Detection](detection/README/md), [Semantic Segmentation](segmentation/README.md)
 
-## Train bash
-
-```
-torchrun --standalone --nproc_per_node=8 --master_port 1235 \
-        main.py \
-        --cfg configs/F2hNet_tiny.yaml\
-        --data-path data/imagenet1k \
-        --batch-size 128 \
-        --accumulation-steps 1 \
-        --model-ema           \
-        --model-ema-decay 0.99992
-
-# Our model train using this command:
-torchrun --standalone --nproc_per_node=4 --master_port 1235 \
-        main.py \
-        --cfg configs/F2hNet_tiny.yaml\
-        --data-path data/imagenet1k \
-        --batch-size 128 \
-        --accumulation-steps 2 \
-        --model-ema           \
-        --model-ema-decay 0.99992
-```
 ## Cite F2HNet
 If you find this repository useful, please give us stars and use the following BibTeX entry for citation.
 ```
