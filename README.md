@@ -1,4 +1,8 @@
-# F2HNet: Bridging Local Details and Global Context via Focal-to-Holistic Mixing (Under Review)
+# F2HNet: Bridging Local Details and Global Context via Focal-to-Holistic Mixing
+
+**👥 Authors:** Maolin Huang, Pengsheng Huang, Tinghui Li, Shoulin Huang   
+**📜 Status:** Under Review at IEEE Transactions on Multimedia (TMM).  
+**⚠️ Note:** The manuscript is currently under review. The camera-ready version will be updated upon acceptance.
 
 ## Classification on ImageNet-1K  
 
