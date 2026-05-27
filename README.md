@@ -4,11 +4,11 @@
 ## Classification on Imagen-1K 
 Train and infer throughput are measured on an RTX 4090 GPU. 
 
-| Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Top-1(%) |Top-5(%)| train log                               |
-|:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:--:| --------------------------------------- |
-| F2HNet-T | 30        | 4.8      | 588          | 1784         | 83.5     |96.6| [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |
-| F2HNet-S | 45        | 9.1      | 315          | 912          | 84.6     |97.0| [log](ckpts/cls/Small/F2HNet-Small.txt) |
-| F2HNet-B | 77        | 15.2     | 222          | 648          | 85.1     |97.3| [log](ckpts/cls/Base/F2HNet-Base.txt)   |
+| Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Top-1(%) |Top-5(%)| train log                             | checkpoint| 
+|:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:------:| --------------------------------------- ||
+| F2HNet-T | 30        | 4.8      | 588          | 1784         | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   ||
+| F2HNet-S | 45        | 9.1      | 315          | 912          | 84.6     |97.0    | [log](ckpts/cls/Small/F2HNet-Small.txt) ||
+| F2HNet-B | 77        | 15.2     | 222          | 648          | 85.1     |97.3   | [log](ckpts/cls/Base/F2HNet-Base.txt)   ||
 
 ## Object Detection with Mask RCNN on COCO 2017
 
