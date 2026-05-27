@@ -12,3 +12,13 @@ https://github.com/open-mmlab/mmsegmentation.git
 cd mmsegmentation
 pip install -v -e .
 ```
+
+## Train
+```
+# Tiny
+bash tools/train.sh configs/f2hnet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 8 --cfg-options model.backbone.init_cfg.checkpoint='checkpoints/tiny.pth'
+# Small
+bash tools/train.sh configs/f2hnet/f2hnet_small_inik_upernet_160k_ade20k_512x512.py 8 --cfg-options model.backbone.init_cfg.checkpoint='checkpoints/small.pth'
+# Base
+bash tools/train.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.py 8 --cfg-options model.backbone.init_cfg.checkpoint='checkpoints/base.pth'
+```
