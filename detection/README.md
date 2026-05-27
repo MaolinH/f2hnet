@@ -8,7 +8,7 @@ pip install timm
 pip install -U openmim
 mim install mmengine
 mim install "mmcv==2.1.0"
-git clone https://github.com/open-mmlab/mmdetection.git 
+git clone https://github.com/open-mmlab/mmdetection.git # 3.2.0
 cd mmdetection
 pip install -v -e .
 ```
