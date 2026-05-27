@@ -26,7 +26,7 @@
 | F2HNet-B | 108       | 1196     | 49.6 | 50.8    | [log](ckpts/seg/Base/f2hnet_base_inik_upernet_160k_ade20k_512x512/Train_log/log.log)   |[ckpt.pth](https://drive.google.com/file/d/1ZZWL4KHcOoAurqByzITucMNo9MfWpcUR/view?usp=drive_link) |
 
 ## Robustness
-
+The evaluation metric for IK/A/R/Sketch/V2 is Top-1 Accuracy(%), and the metric for C is mCE(%).
 | Variants | 1K   | C    | A    | R    | Sketch | V2   |
 |:--------:|:----:|:----:|:----:|:----:|:------:|:----:|
 | F2HNet-T | 83.5 | 48.1 | 34.9 | 48.8 | 35.6   | 72.7 |
