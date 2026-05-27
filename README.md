@@ -38,7 +38,7 @@ The evaluation metric for IK/A/R/Sketch/V2 is Top-1 Accuracy(%), and the metric 
 ## Cite F2HNet
 If you find this repository useful, please give us stars and use the following BibTeX entry for citation.
 ```
-@misc{huang_f2hnet_2026,
+@misc{huang2026f2hnet,
     title={{F2HNet}: Bridging Local Details and Global Context via Focal-to-Holistic Mixing},
     author={Huang, Maolin and Huang, Pengsheng and Li, Tinghui and Huang, Shoulin},
     howpublished = {\url{https://github.com/MaolinH/f2hnet}},
