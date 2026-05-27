@@ -1,4 +1,4 @@
-# F2HNet: Bridging Local Details and Global Context via Focal-to-Holistic Mixing
+# F2HNet: Bridging Local Details and Global Context via Focal-to-Holistic Mixing (Under Review)
 
 ## Classification on Imagen-1K  
 
