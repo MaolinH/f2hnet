@@ -147,6 +147,7 @@ _C.TEST.CROP = True
 # Whether to use SequentialSampler as validation sampler
 _C.TEST.SEQUENTIAL = False
 _C.TEST.SHUFFLE = False
+_C.TEST.CHECKPOINT = 'ckpts/f2hnet_t.pth'
 
 # Enable Pytorch automatic mixed precision (amp).
 _C.AMP_ENABLE = True
@@ -233,6 +234,8 @@ def update_config(config, args):
         config.MODEL_EMA_FORCE_CPU = args.model_ema_force_cuda
     if _check_args('model_ema_eval'):
         config.MODEL_EMA_EVAL = args.model_ema_eval
+    if _check_args('test_checkpoint'):
+        config.TEST.CHECKPOINT = args.test_checkpoint
 
     ## Overwrite optimizer if not None, currently we use it for [fused_adam, fused_lamb]
     if _check_args('optim'):
