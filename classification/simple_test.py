@@ -15,7 +15,7 @@ class Config:
     num_classes = 1000  
     model_name = 'f2hnet_t'     # overwrite with your model name: 'f2hnet_t', 'f2hnet_s', or 'f2hnet_b'
     checkpoint = 'f2hnet_t.pth'  # overwrite with your checkpoint path
-    device = 'cuda:0'
+    device = 'cuda:0'         # overwrite with your device
     num_workers = 4
 
 def build_val_loader():
