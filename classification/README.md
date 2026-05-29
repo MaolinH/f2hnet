@@ -41,3 +41,7 @@ torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg config
 # test F2HNet-B
 torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_base.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_b.pth
 ```
+Test: A simple bash for CPU/single gpu.
+```
+python simple_test.py
+```
