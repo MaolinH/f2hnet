@@ -16,5 +16,3 @@ torchrun \
     $CONFIG \
     --launcher pytorch ${@:3}
 
-
-# bash tools/train.sh configs/foconet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 4 --cfg-options model.backbone.init_cfg.checkpoint='/root/FoCoNet/detection/checkpoints/tiny.pth'
