@@ -19,5 +19,3 @@ torchrun \
     --launcher pytorch \
     ${@:4}
 
-
-# bash tools/test.sh configs/foconet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 4 work_dirs/foconet_tiny_inik_upernet_160k_ade20k_512x512/iter_144000.pth --eval mIoU
