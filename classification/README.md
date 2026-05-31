@@ -30,7 +30,7 @@ torchrun --standalone --nproc_per_node=4 --master_port 1235 \
         --model-ema-decay 0.99992
 ```
 
-Test (The number of GPUs according to your mechine.)
+## Test (The number of GPUs according to your mechine.)
 ```
 # test F2HNet-T
 torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_tiny.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_t.pth
@@ -41,7 +41,8 @@ torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg config
 # test F2HNet-B
 torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_base.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_b.pth
 ```
-Test: A simple bash for CPU/single gpu.
+## Test: A simple bash for CPU/single gpu.
+You need to overwrite correct ckpt/dataset/model_name on simple_test.py.
 ```
 python simple_test.py
 ```
