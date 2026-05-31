@@ -25,9 +25,9 @@ bash tools/train.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.
 ## Test MS mIoU
 ```
 # Tiny
-bash tools/test.sh configs/f2hnet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_tiny.pth --tta
+bash tools/test.sh configs/f2hnet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_tiny.pth --tta --launcher pytorch
 # Small
-bash tools/test.sh configs/f2hnet/f2hnet_small_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_small.pth --tta
+bash tools/test.sh configs/f2hnet/f2hnet_small_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_small.pth --tta --launcher pytorch
 # Base
-bash tools/test.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_base.pth --tta
+bash tools/test.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_base.pth --tta --launcher pytorch
 ```
