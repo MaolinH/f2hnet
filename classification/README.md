@@ -9,7 +9,7 @@ pip install termcolor
 Data preparation: ImageNet with the following folder structure.
 
 ```
-│imagenet/
+│imagenet1k/
 ├──train/
 │  ├── n01440764
 │  │   ├── n01440764_10026.JPEG
