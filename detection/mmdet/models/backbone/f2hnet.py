@@ -148,7 +148,7 @@ class Attention(BaseModule):
         qkv = self.qkv(x)
         qkv = qkv.reshape(B_, -1, 3, self.num_heads, C // self.num_heads).permute(2, 0, 3, 1, 4)  # (3,B_,nH,L,head_dim)
         q, k, v = qkv
-        # # -------------------------------------------------------------------------------------------------
+        # # -------------------------------------hand-written attention-----------------------------------------------
         # attn = q @ k.transpose(-1, -2) * self.qk_scale
         # if self.rpe:
         #     relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
@@ -163,7 +163,7 @@ class Attention(BaseModule):
         # attn = self.attn_drop(attn)
         # attn = self.softmax(attn)
         # attn = (attn @ v).transpose(1, 2).reshape(B_, L, C)
-        # -------------------------------------------------------------------------------------------------
+        # --------------------------------------------Flash Attention---------------------------------------------------
         if self.rpe:
             relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
                                                                                                                    -1)  # Wh*Ww,Wh*Ww,nH
