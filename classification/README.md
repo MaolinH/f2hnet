@@ -5,7 +5,7 @@ pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https
 pip install timm
 pip install yacs
 pip install termcolor
-
+```
 Data preparation: ImageNet with the following folder structure, you can extract ImageNet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
 
 ```
@@ -24,7 +24,6 @@ Data preparation: ImageNet with the following folder structure, you can extract 
 │  ├── ......
 ```
 
-```
 ## Train (The number of GPUs according to your mechine, and assure: bs*ngpu\*accumulation-steps=1024)
 
 ```
