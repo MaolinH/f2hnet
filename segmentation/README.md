@@ -22,12 +22,22 @@ bash tools/train.sh configs/f2hnet/f2hnet_small_inik_upernet_160k_ade20k_512x512
 # Base
 bash tools/train.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.py 8 --cfg-options model.backbone.init_cfg.checkpoint='checkpoints/base.pth'
 ```
+## Test
+```
+# Tiny
+bash tools/test.sh configs/f2hnet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 8 path/to/upnet_tiny.pth 
+# Small
+bash tools/test.sh configs/f2hnet/f2hnet_small_inik_upernet_160k_ade20k_512x512.py 8 path/to/upnet_small.pth
+# Base
+bash tools/test.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.py 8 path/to/upnet_base.pth
+```
+
 ## Test MS mIoU
 ```
 # Tiny
-bash tools/test.sh configs/f2hnet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_tiny.pth --tta --launcher pytorch
+bash tools/test.sh configs/f2hnet/f2hnet_tiny_inik_upernet_160k_ade20k_512x512.py 8 path/to/upnet_tiny.pth --tta 
 # Small
-bash tools/test.sh configs/f2hnet/f2hnet_small_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_small.pth --tta --launcher pytorch
+bash tools/test.sh configs/f2hnet/f2hnet_small_inik_upernet_160k_ade20k_512x512.py 8 path/to/upnet_small.pth --tta 
 # Base
-bash tools/test.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.py 4 path/to/upnet_base.pth --tta --launcher pytorch
+bash tools/test.sh configs/f2hnet/f2hnet_base_inik_upernet_160k_ade20k_512x512.py 8 path/to/upnet_base.pth --tta
 ```
