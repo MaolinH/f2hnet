@@ -24,7 +24,7 @@ Data preparation: ImageNet with the following folder structure.
 │  ├── ......
 ```
 
-## Train (The number of GPUs according to your mechine, and assure: bs*ngpu\*accumulation-steps=1024)
+## Train (The number of GPUs according to your mechine, and assure: bs×ngpu×accumulation-steps=1024)
 
 ```
 torchrun --standalone --nproc_per_node=8 --master_port 1235 \
