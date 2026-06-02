@@ -164,13 +164,20 @@ class Attention(BaseModule):
         # attn = self.softmax(attn)
         # attn = (attn @ v).transpose(1, 2).reshape(B_, L, C)
         # --------------------------------------------Flash Attention---------------------------------------------------
+        attn_mask=None
         if self.rpe:
             relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
                                                                                                                    -1)  # Wh*Ww,Wh*Ww,nH
-            relative_position_bias = relative_position_bias.permute(2, 0, 1).contiguous().unsqueeze(0)  # nH, Wh*Ww, Wh*Ww
-        else:
-            relative_position_bias=None
-        attn = F.scaled_dot_product_attention(query=q, key=k, value=v, attn_mask=relative_position_bias)
+            attn_mask = relative_position_bias.permute(2, 0, 1).contiguous().unsqueeze(0)  # nH, Wh*Ww, Wh*Ww
+        if mask is not None:
+            nS = mask.shape[0]
+            mask = mask[None,:,None,:,:]        # (1,nS,1,L,L)
+            if attn_mask is not None:
+                attn_mask = mask + attn_mask.unsqueeze(0)    # (nS,nH,L,L)
+                attn_mask = attn_mask.repeat(B_//nS, 1,1,1,1).reshape(B_,-1,L,L) # (B_,nH,L,L)
+            else:
+                attn_mask = mask.repeat(B_//nS, 1,1,1,1).reshape(B_,-1,L,L)
+        attn = F.scaled_dot_product_attention(query=q, key=k, value=v, attn_mask=attn_mask)
         attn = attn.transpose(1, 2).reshape(B_, L, C)
         # -------------------------------------------------------------------------------------------------
         x = self.proj(attn)
