@@ -6,19 +6,6 @@ import torch.nn as nn
 from timm.layers import to_2tuple, trunc_normal_, DropPath
 from torch.nn.functional import scaled_dot_product_attention
 
-# def img2seq(x, dilation,seq_size):
-#     B, H, W, C = x.shape
-#     x = x.view(B, H//dilation[0], dilation[0], W//dilation[1], dilation[1], C)
-#     windows = x.permute(0, 2, 4, 1, 3, 5).reshape(-1, seq_size[0] * seq_size[1], C)
-#     return windows  # (B*nS, L,C)
-#
-#
-# def seq2img(windows,dilation, seq_size, H: int, W: int):
-#     B = int(windows.shape[0] / (H * W / seq_size[0] / seq_size[1]))
-#     x = windows.view(B,dilation[0],dilation[1], H//dilation[0], W//dilation[1], -1)
-#     x = x.permute(0, 3, 1, 4, 2, 5).reshape(B, H * W, -1)
-#     return x  # (B,L,C)
-
 def img2seq(x, dilation,seq_size):
     B, H, W, C = x.shape
     dh,dw = dilation
@@ -146,7 +133,8 @@ class Attention(nn.Module):
         qkv = self.qkv(x)
         qkv = qkv.reshape(B_, -1, 3, self.num_heads, C // self.num_heads).permute(2, 0, 3, 1, 4)  # (3,B_,nH,L,head_dim)
         q, k, v = qkv
-        #     # ----------------------------------------Manuscript--------------------------------------------------
+        # Training the model in this way might be faster
+        #     # ----------------------------------------hand-written attention--------------------------------------------------
         #     attn = q @ k.transpose(-1, -2) * self.qk_scale
         #     if self.rpe:
         #         relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
@@ -157,7 +145,7 @@ class Attention(nn.Module):
         #     attn = self.attn_drop(attn)
         #     attn = self.softmax(attn)
         #     attn = (attn @ v).transpose(1, 2).reshape(B_, L, C)
-        # ----------------------------------------Pytorch(faster)--------------------------------------------------
+        # ----------------------------------------FlashAttention--------------------------------------------------
         if self.rpe:
             relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
                                                                                                                    -1)  # Wh*Ww,Wh*Ww,nH
