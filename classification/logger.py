@@ -32,8 +32,3 @@ def create_logger(output_dir, dist_rank=0, name=''):
     logger.addHandler(file_handler)
 
     return logger
-
-# if __name__ == '__main__':
-#     logger = create_logger('.', dist_rank=0,name='train1k')
-#     logger.info(colored(f"best acc1: 82.9%",
-#                           'blue'))
