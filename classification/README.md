@@ -6,7 +6,7 @@ pip install timm
 pip install yacs
 pip install termcolor
 ```
-Data preparation: ImageNet with the following folder structure, you can extract ImageNet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
+Data preparation: ImageNet with the following folder structure.
 
 ```
 │imagenet/
