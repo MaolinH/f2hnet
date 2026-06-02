@@ -4,7 +4,7 @@
 import torch
 import torch.nn as nn
 from timm.layers import to_2tuple, trunc_normal_, DropPath
-from torch.nn.functional import scaled_dot_product_attention
+import  torch.nn.functional as F
 
 def img2seq(x, dilation,seq_size):
     B, H, W, C = x.shape
@@ -145,14 +145,14 @@ class Attention(nn.Module):
         #     attn = self.attn_drop(attn)
         #     attn = self.softmax(attn)
         #     attn = (attn @ v).transpose(1, 2).reshape(B_, L, C)
-        # ----------------------------------------FlashAttention--------------------------------------------------
+        # ----------------------------------------Flash Attention--------------------------------------------------
         if self.rpe:
             relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
                                                                                                                    -1)  # Wh*Ww,Wh*Ww,nH
             relative_position_bias = relative_position_bias.permute(2, 0, 1).contiguous().unsqueeze(0)  # nH, Wh*Ww, Wh*Ww
         else:
             relative_position_bias=None
-        attn = scaled_dot_product_attention(query=q, key=k, value=v, attn_mask=relative_position_bias)
+        attn = F.scaled_dot_product_attention(query=q, key=k, value=v, attn_mask=relative_position_bias,scale=self.qk_scale)
         attn = attn.transpose(1, 2).reshape(B_, L, C)
         # -------------------------------------------------------------------------------------------------
         x = self.proj(attn)
