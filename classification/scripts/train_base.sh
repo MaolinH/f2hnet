@@ -5,7 +5,7 @@ torchrun \
             --master_port 1235 \
         main.py \
         --cfg configs/F2hNet_base.yaml \
-        --data/imagenet1k \
+        --data-path data/imagenet1k \
         --batch-size 128 \
         --accumulation-steps 1 \
         --model-ema           \
