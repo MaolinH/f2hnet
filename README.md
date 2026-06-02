@@ -6,7 +6,7 @@
 
 ## Classification on ImageNet-1K  
 
-| Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Top-1(%) |Top-5(%)| train log                             | checkpoint| 
+| Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Acc.1(%) |Acc.5(%)| train log                               | checkpoint| 
 |:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:------:| --------------------------------------- |:------:|
 | F2HNet-T | 30        | 4.8      | 588          | 2191         | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |[ckpt.pth](https://drive.google.com/file/d/18242jBKFYAXDBDswI1a2zRjQpN6IB1UZ/view?usp=drive_link)|
 | F2HNet-S | 45        | 9.1      | 315          | 1129         | 84.6     |97.0    | [log](ckpts/cls/Small/F2HNet-Small.txt) |[ckpt.pth](https://drive.google.com/file/d/114TuwvzpQkEtSc0ixUUOeXpXFoJHIx36/view?usp=drive_link)|
