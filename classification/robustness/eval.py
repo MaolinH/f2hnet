@@ -8,7 +8,7 @@ from PIL import Image
 
 from models.f2hnet import f2hnet_tiny, f2hnet_small, f2hnet_base
 
-
+# 用于测试Imagenet-V2/Sketch
 # ==================== 数据集定义 ====================
 class NumericImageFolder(Dataset):
     """
