@@ -5,7 +5,7 @@
 **⚠️ Note:** The manuscript is currently under review. The camera-ready version will be updated upon acceptance.
 
 ## Classification on ImageNet-1K  
-The "588/543" denotes test speed using Manual attention/F.scaled_dot_product_attention(pytorch). 
+
 | Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Top-1(%) |Top-5(%)| train log                             | checkpoint| 
 |:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:------:| --------------------------------------- |:------:|
 | F2HNet-T | 30        | 4.8      | 588          | 2191         | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |[ckpt.pth](https://drive.google.com/file/d/18242jBKFYAXDBDswI1a2zRjQpN6IB1UZ/view?usp=drive_link)|
