@@ -23,3 +23,15 @@ bash tools/train.sh configs/f2hnet/mask_rcnn_f2hnet_small_3x.py 8 --cfg-options 
 # F2HNet-B with mask rcnn 3x 
 bash tools/train.sh configs/f2hnet/mask_rcnn_f2hnet_base_3x.py 8 --cfg-options model.backbone.pretrained='checkpoints/base.pth'
 ```
+
+## Test
+```
+# F2HNet-T with mask rcnn 1x 
+bash tools/test.sh configs/f2hnet/mask_rcnn_f2hnet_tiny_1x.py ckpts/mask_rcnn_f2hnet_tiny_1x.pth 8 
+# F2HNet-T with mask rcnn 3x 
+bash tools/test.sh configs/f2hnet/mask_rcnn_f2hnet_tiny_3x.py ckpts/mask_rcnn_f2hnet_tiny_3x.pth 8 
+# F2HNet-S with mask rcnn 3x 
+bash tools/test.sh configs/f2hnet/mask_rcnn_f2hnet_small_3x.py ckpts/mask_rcnn_f2hnet_small_3x.pth 8 
+# F2HNet-B with mask rcnn 3x 
+bash tools/test.sh configs/f2hnet/mask_rcnn_f2hnet_base_3x.py ckpts/mask_rcnn_f2hnet_small_1x.pth 8 
+```
