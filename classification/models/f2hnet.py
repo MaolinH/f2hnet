@@ -4,6 +4,8 @@
 import torch
 import torch.nn as nn
 from timm.layers import to_2tuple, trunc_normal_, DropPath
+from torch.nn.functional import scaled_dot_product_attention
+
 # def img2seq(x, dilation,seq_size):
 #     B, H, W, C = x.shape
 #     x = x.view(B, H//dilation[0], dilation[0], W//dilation[1], dilation[1], C)
@@ -144,17 +146,26 @@ class Attention(nn.Module):
         qkv = self.qkv(x)
         qkv = qkv.reshape(B_, -1, 3, self.num_heads, C // self.num_heads).permute(2, 0, 3, 1, 4)  # (3,B_,nH,L,head_dim)
         q, k, v = qkv
-        # -------------------------------------------------------------------------------------------------
-        attn = q @ k.transpose(-1, -2) * self.qk_scale
+        #     # ----------------------------------------Manuscript--------------------------------------------------
+        #     attn = q @ k.transpose(-1, -2) * self.qk_scale
+        #     if self.rpe:
+        #         relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
+        #                                                                                                                -1)  # Wh*Ww,Wh*Ww,nH
+        #         relative_position_bias = relative_position_bias.permute(2, 0, 1).contiguous()  # nH, Wh*Ww, Wh*Ww
+        #         attn = attn + relative_position_bias.unsqueeze(0)
+    
+        #     attn = self.attn_drop(attn)
+        #     attn = self.softmax(attn)
+        #     attn = (attn @ v).transpose(1, 2).reshape(B_, L, C)
+        # ----------------------------------------Pytorch(faster)--------------------------------------------------
         if self.rpe:
             relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(L, L,
                                                                                                                    -1)  # Wh*Ww,Wh*Ww,nH
-            relative_position_bias = relative_position_bias.permute(2, 0, 1).contiguous()  # nH, Wh*Ww, Wh*Ww
-            attn = attn + relative_position_bias.unsqueeze(0)
-
-        attn = self.attn_drop(attn)
-        attn = self.softmax(attn)
-        attn = (attn @ v).transpose(1, 2).reshape(B_, L, C)
+            relative_position_bias = relative_position_bias.permute(2, 0, 1).contiguous().unsqueeze(0)  # nH, Wh*Ww, Wh*Ww
+        else:
+            relative_position_bias=None
+        attn = scaled_dot_product_attention(query=q, key=k, value=v, attn_mask=relative_position_bias)
+        attn = attn.transpose(1, 2).reshape(B_, L, C)
         # -------------------------------------------------------------------------------------------------
         x = self.proj(attn)
         x = self.proj_drop(x)
