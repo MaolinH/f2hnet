@@ -34,6 +34,7 @@ torchrun --standalone --nproc_per_node=8 --master_port 1235 \
         --data-path path/to/imagenet1k \
         --batch-size 128 \
         --accumulation-steps 1 \
+        --tag ckpts
         --model-ema           \
         --model-ema-decay 0.99992
 
@@ -44,6 +45,7 @@ torchrun --standalone --nproc_per_node=4 --master_port 1235 \
         --data-path path/to/imagenet1k \
         --batch-size 128 \
         --accumulation-steps 2 \
+        --tag ckpts
         --model-ema           \
         --model-ema-decay 0.99992
 ```
