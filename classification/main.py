@@ -367,9 +367,7 @@ def throughput(config, model, logger, data_loader=None):
     model.eval()
     if data_loader is None:
         data_loader = []
-        img = torch.randn(config.BATCH_SIZE, config.IN_CHANNELS,
-                          config.MODEL.FoCoNetPlus.IN_CHANNELS,
-                          config.MODEL.FoCoNetPlus.IN_CHANNELS, dtype=torch.float32)  # (B,3,H,W)
+        img = torch.randn(config.BATCH_SIZE, config.IN_CHANNELS,config.DATA.IMG_SIZE,config.DATA.IMG_SIZE, dtype=torch.float32)  # (B,3,H,W)
         label = torch.randn(config.BATCH_SIZE, config.MODEL.NUM_CLASSES, dtype=torch.float32)  # (B,num_cls)
         data_loader.append([img, label])
     for idx, (images, target) in enumerate(data_loader):
