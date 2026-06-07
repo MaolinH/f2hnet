@@ -106,7 +106,7 @@ class FocalBlock(nn.Module):
         flops = 0
         flops += self.kernel_size ** 2 * self.dim * self.dim * H * W // self.groups
         flops += 2 * self.out_dim * self.dim * H * W
-        flops += (2 * self.dim + self.out_dim) * H * W
+        flops +=self.dim * H * W
         return flops
 
 
@@ -185,7 +185,6 @@ class Attention(nn.Module):
         flops = 0
         flops += 3 * self.dim * self.dim  # qkv
         flops += 2 * N * self.dim  # attn
-        flops += self.dim  # softmax
         flops += self.dim * self.dim  # proj
         return flops
 
