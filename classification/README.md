@@ -54,12 +54,22 @@ torchrun --standalone --nproc_per_node=4 --master_port 1235 \
 ```
 # test F2HNet-T
 torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_tiny.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_t.pth
+# output result in terminal:
+# Test finish!
+# Test accuracy: Acc1:83.52% / Acc5:96.48%
 
 # test F2HNet-S
 torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_small.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_s.pth
+# output result in terminal:
+# Test finish!
+# Test accuracy: Acc1:84.57% / Acc5:96.92%
 
 # test F2HNet-B
 torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_base.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_b.pth
+# output result in terminal:
+# Test finish!
+# Test accuracy: Acc1:85.07% / Acc5:97.19%
+
 ```
 ## Test: A simple bash for CPU/single gpu.
 You need to overwrite correct ckpt/dataset/model_name on simple_test.py.
