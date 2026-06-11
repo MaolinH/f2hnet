@@ -375,6 +375,7 @@ def throughput(config, model, logger, data_loader=None):
         data_loader.append([img, label])
     for idx, (images, target) in enumerate(data_loader):
         images = images.cuda(non_blocking=True)
+        images = images.to(memory_format=torch.channels_last)
         batch_size = images.shape[0]
         for i in range(50):
             model(images)
