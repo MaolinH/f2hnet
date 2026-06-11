@@ -126,7 +126,7 @@ def throughput(config):
     sampler_val = torch.utils.data.distributed.DistributedSampler(dataset_val, shuffle=False)
     data_loader = torch.utils.data.DataLoader(
         dataset_val, 
-        batch_size=config.DATA.BATCH_SIZE, 
+        batch_size=64, 
         num_workers=config.DATA.NUM_WORKERS, 
         pin_memory=True,
         sampler=sampler_val
@@ -143,7 +143,7 @@ def throughput(config):
             model(images)
         torch.cuda.synchronize()
         tic2 = time.time()
-        print(f"batch_size {batch_size} throughput {30 * batch_size / (tic2 - tic1):.0f}")
+        print(f"batch_size-64 throughput {30 * 64 / (tic2 - tic1):.0f}")
         return
 
 if __name__ == '__main__':
