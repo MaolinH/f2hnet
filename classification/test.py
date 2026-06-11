@@ -143,4 +143,5 @@ if __name__ == '__main__':
             f.write(config.dump())
 
     acc1, acc5,loss = test(config)
+    print('Test finish!')
     print(f"Test accuracy: {acc1:.2f}% / {acc5:.2f}%")
