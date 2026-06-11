@@ -143,7 +143,7 @@ def throughput(config):
             model(images)
         torch.cuda.synchronize()
         tic2 = time.time()
-        print(f"batch_size {batch_size} throughput {30 * batch_size / (tic2 - tic1)}")
+        print(f"batch_size {batch_size} throughput {30 * batch_size / (tic2 - tic1):.0f}")
         return
 
 if __name__ == '__main__':
