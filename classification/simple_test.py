@@ -97,11 +97,11 @@ def test():
 @torch.no_grad()
 def inference(model):
     if Config.model_name == 'f2hnet_t':
-        model = f2hnet_tiny(num_classes=Config.num_classes)
+        model = f2hnet_tiny(num_classes=1000)
     elif Config.model_name == 'f2hnet_s':
-        model = f2hnet_small(num_classes=Config.num_classes)
+        model = f2hnet_small(num_classes=1000)
     elif Config.model_name == 'f2hnet_b':
-        model = f2hnet_base(num_classes=Config.num_classes)
+        model = f2hnet_base(num_classes=1000)
     else:
         return
     model.eval()
@@ -131,11 +131,11 @@ def inference(model):
 
 def train_throughput(optimizer=None, criterion=None):
     if Config.model_name == 'f2hnet_t':
-        model = f2hnet_tiny(num_classes=Config.num_classes)
+        model = f2hnet_tiny(num_classes=1000)
     elif Config.model_name == 'f2hnet_s':
-        model = f2hnet_small(num_classes=Config.num_classes)
+        model = f2hnet_small(num_classes=1000)
     elif Config.model_name == 'f2hnet_b':
-        model = f2hnet_base(num_classes=Config.num_classes)
+        model = f2hnet_base(num_classes=1000)
     else:
         return
     model.train()
