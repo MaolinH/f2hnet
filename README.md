@@ -5,12 +5,12 @@
 **⚠️ Note:** The manuscript is currently under review. The camera-ready version will be updated upon acceptance.
 
 ## Classification on ImageNet-1K  
-
+ The throughputs are measured on single RTX 4090 24G GPU (PyTorch 2.5.1 and CUDA 12.4) with TF32 (TensorFloat-32), and the batch size is set to 64.
 | Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Acc.1(%) |Acc.5(%)| train log                               | checkpoint| 
 |:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:------:| --------------------------------------- |:------:|
-| F2HNet-T | 30        | 4.8      | 588          | 2787         | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |[ckpt.pth](https://drive.google.com/file/d/18242jBKFYAXDBDswI1a2zRjQpN6IB1UZ/view?usp=drive_link)|
-| F2HNet-S | 45        | 9.1      | 315          | 1461         | 84.6     |97.0    | [log](ckpts/cls/Small/F2HNet-Small.txt) |[ckpt.pth](https://drive.google.com/file/d/114TuwvzpQkEtSc0ixUUOeXpXFoJHIx36/view?usp=drive_link)|
-| F2HNet-B | 77        | 15.2     | 222          | 961          | 85.1     |97.3   | [log](ckpts/cls/Base/F2HNet-Base.txt)   |[ckpt.pth](https://drive.google.com/file/d/1ALaM3D7-lUoNsh_CFtw4ybW_l4fivnBn/view?usp=drive_link)|
+| F2HNet-T | 30        | 4.8      | 588          | 2623         | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |[ckpt.pth](https://drive.google.com/file/d/18242jBKFYAXDBDswI1a2zRjQpN6IB1UZ/view?usp=drive_link)|
+| F2HNet-S | 45        | 9.1      | 315          | 1349         | 84.6     |97.0    | [log](ckpts/cls/Small/F2HNet-Small.txt) |[ckpt.pth](https://drive.google.com/file/d/114TuwvzpQkEtSc0ixUUOeXpXFoJHIx36/view?usp=drive_link)|
+| F2HNet-B | 77        | 15.2     | 222          | 917          | 85.1     |97.3   | [log](ckpts/cls/Base/F2HNet-Base.txt)   |[ckpt.pth](https://drive.google.com/file/d/1ALaM3D7-lUoNsh_CFtw4ybW_l4fivnBn/view?usp=drive_link)|
 
 ## Object Detection with Mask RCNN on COCO 2017
 
