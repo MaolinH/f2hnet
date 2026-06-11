@@ -113,6 +113,39 @@ def test(config):
 
     return acc1_meter.avg, acc5_meter.avg, loss_meter.avg
 
+@torch.no_grad()
+def throughput(config):
+    # 可以通过github获取对比模型代码，并修改下一行定义你需要测试的模型
+    model = build_model(config)
+    model.cuda()
+    torch.backends.cuda.matmul.allow_tf32 = True
+    torch.backends.cudnn.allow_tf32 = True
+    model.to(memory_format=torch.channels_last)
+    model.eval()
+    dataset_val, _ = build_dataset(is_train=False, config=config)
+    sampler_val = torch.utils.data.distributed.DistributedSampler(dataset_val, shuffle=False)
+    data_loader = torch.utils.data.DataLoader(
+        dataset_val, 
+        batch_size=config.DATA.BATCH_SIZE, 
+        num_workers=config.DATA.NUM_WORKERS, 
+        pin_memory=True,
+        sampler=sampler_val
+    )
+    for idx, (images, target) in enumerate(data_loader):
+        images = images.cuda(non_blocking=True)
+        images = images.to(memory_format=torch.channels_last)
+        batch_size = images.shape[0]
+        for i in range(50):
+            model(images)
+        torch.cuda.synchronize()
+        tic1 = time.time()
+        for i in range(30):
+            model(images)
+        torch.cuda.synchronize()
+        tic2 = time.time()
+        print(f"batch_size {batch_size} throughput {30 * batch_size / (tic2 - tic1)}")
+        return
+
 if __name__ == '__main__':
     args, config = parse_option()
 
@@ -145,3 +178,4 @@ if __name__ == '__main__':
     acc1, acc5,loss = test(config)
     print('Test finish!')
     print(f"Test accuracy: {acc1:.2f}% / {acc5:.2f}%")
+    throughput(config)
