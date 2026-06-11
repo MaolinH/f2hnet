@@ -94,5 +94,116 @@ def test():
         'top5_acc': top5_acc
     }
 
+@torch.no_grad()
+def inference(model):
+    if Config.model_name == 'f2hnet_t':
+        model = f2hnet_tiny(num_classes=Config.num_classes)
+    elif Config.model_name == 'f2hnet_s':
+        model = f2hnet_small(num_classes=Config.num_classes)
+    elif Config.model_name == 'f2hnet_b':
+        model = f2hnet_base(num_classes=Config.num_classes)
+    else:
+        return
+    model.eval()
+    model.cuda()
+    torch.backends.cuda.matmul.allow_tf32 = True
+    torch.backends.cudnn.allow_tf32 = True
+    model.to(memory_format=torch.channels_last)
+
+    data_loader = []
+    img = torch.randn(64, 3,224, 224, dtype=torch.float32)  # (B,3,H,W)
+    label = torch.randn(64, 1000, dtype=torch.float32)  # (B,num_cls)
+    data_loader.append([img, label])
+    for idx, (images, _) in enumerate(data_loader):
+        images = images.cuda(non_blocking=True)
+        batch_size = images.shape[0]
+        images = images.to(memory_format=torch.channels_last)
+        for i in range(50):
+            model(images)
+        torch.cuda.synchronize()
+        tic1 = time.time()
+        for i in range(30):
+            model(images)
+        torch.cuda.synchronize()
+        tic2 = time.time()
+        print(f"batch_size-64 throughput: {30 * 64 / (tic2 - tic1)}")
+        return 30 * 64 / (tic2 - tic1)
+
+def train_throughput(optimizer=None, criterion=None):
+    if Config.model_name == 'f2hnet_t':
+        model = f2hnet_tiny(num_classes=Config.num_classes)
+    elif Config.model_name == 'f2hnet_s':
+        model = f2hnet_small(num_classes=Config.num_classes)
+    elif Config.model_name == 'f2hnet_b':
+        model = f2hnet_base(num_classes=Config.num_classes)
+    else:
+        return
+    model.train()
+    model.cuda()
+    
+    # 设置默认损失函数和优化器
+    if criterion is None:
+        criterion = nn.CrossEntropyLoss()
+    
+    if optimizer is None:
+        optimizer = torch.optim.AdamW(model.parameters(), lr=0.01)
+    data_loader = []
+    img = torch.randn(32, 3,224, 224, dtype=torch.float32)  # (B,3,H,W)
+    label = torch.randn(32, Config.num_classes, dtype=torch.float32)  # (B,num_cls)
+    data_loader.append([img, label])
+    # 只测试第一个batch
+    for idx, (images, labels) in enumerate(data_loader):
+        # 将数据移动到GPU
+        images = images.cuda(non_blocking=True)     # [batch_size, 3, H,W]
+        labels = labels.cuda(non_blocking=True)     # [batch_size]
+        batch_size = images.shape[0]
+        # 预热阶段：运行50次训练步骤稳定状态
+        for i in range(50):
+            # 前向传播
+            # with torch.amp.autocast(device_type='cuda',enabled=True):
+            with torch.amp.autocast(device_type='cuda',enabled=True):
+                outputs = model(images)
+            if isinstance(outputs, list):
+                loss_list = [criterion(o, labels) / len(outputs) for o in outputs]
+                loss = sum(loss_list)
+            else:
+                loss = criterion(outputs, labels)
+            
+            # 反向传播
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+        
+        # 同步GPU操作
+        torch.cuda.synchronize()
+        
+        # 开始计时
+        start_time = time.time()
+        
+        # 测量阶段：运行30次训练步骤
+        for i in range(30):
+            # with torch.amp.autocast(device_type='cuda',enabled=True):
+            outputs = model(images)
+            if isinstance(outputs, list):
+                loss_list = [criterion(o, labels) / len(outputs) for o in outputs]
+                loss = sum(loss_list)
+            else:
+                loss = criterion(outputs, labels)
+            memory_used = torch.cuda.max_memory_allocated()
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+        
+        # 同步GPU操作确保计时准确
+        torch.cuda.synchronize()
+        end_time = time.time()
+        
+        # 计算吞吐量：样本数/秒
+        throughput = 30 * 32 / (end_time - start_time)
+        print(f'Train throughput: {throughput:.0f} & memory: {memory_used:.0f}')
+        return throughput,memory_used
+
 if __name__ == '__main__':
     results = test()
+    tp = inference()
+    train_tp, train_mem = train_throughput()
