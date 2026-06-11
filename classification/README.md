@@ -53,13 +53,13 @@ torchrun --standalone --nproc_per_node=4 --master_port 1235 \
 ## Test (The number of GPUs according to your mechine.)
 ```
 # test F2HNet-T
-torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_tiny.yaml --data-path data/imagenet1k --batch-size 64 --test-checkpoint path/to/f2hnet_t.pth
+torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_tiny.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_t.pth
 
 # test F2HNet-S
-torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_small.yaml --data-path data/imagenet1k --batch-size 64 --test-checkpoint path/to/f2hnet_s.pth
+torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_small.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_s.pth
 
 # test F2HNet-B
-torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_base.yaml --data-path data/imagenet1k --batch-size 64 --test-checkpoint path/to/f2hnet_b.pth
+torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_base.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_b.pth
 
 ```
 ## Test: A simple bash for CPU/single gpu.
