@@ -53,22 +53,25 @@ torchrun --standalone --nproc_per_node=4 --master_port 1235 \
 ## Test (The number of GPUs according to your mechine.)
 ```
 # test F2HNet-T
-torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_tiny.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_t.pth
+torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_tiny.yaml --data-path data/imagenet1k --batch-size 64 --test-checkpoint path/to/f2hnet_t.pth
 # output result in terminal:
 # Test finish!
 # Test accuracy: Acc1:83.52% / Acc5:96.48%
+# # batch_size 64 throughput 2785
 
 # test F2HNet-S
-torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_small.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_s.pth
+torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_small.yaml --data-path data/imagenet1k --batch-size 64 --test-checkpoint path/to/f2hnet_s.pth
 # output result in terminal:
 # Test finish!
 # Test accuracy: Acc1:84.57% / Acc5:96.92%
+# batch_size 64 throughput 1461
 
 # test F2HNet-B
-torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_base.yaml --data-path data/imagenet1k --batch-size 128 --test-checkpoint path/to/f2hnet_b.pth
+torchrun --standalone --nproc_per_node=8 --master_port 1235 test.py --cfg configs/F2hNet_base.yaml --data-path data/imagenet1k --batch-size 64 --test-checkpoint path/to/f2hnet_b.pth
 # output result in terminal:
 # Test finish!
 # Test accuracy: Acc1:85.07% / Acc5:97.19%
+# batch_size 64 throughput 861
 
 ```
 ## Test: A simple bash for CPU/single gpu.
