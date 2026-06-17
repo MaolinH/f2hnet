@@ -364,9 +364,12 @@ def validate(config, data_loader, model):
 
 @torch.no_grad()
 def throughput(config, model, logger, data_loader=None):
+    # If you are using an Ampere-architecture GPU or newer, we recommend using the following settings.
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
+    model = torch.compile(model)
     model.to(memory_format=torch.channels_last)
+    # ---------------------------------------------------------------------------------------------------
     model.eval()
     if data_loader is None:
         data_loader = []
