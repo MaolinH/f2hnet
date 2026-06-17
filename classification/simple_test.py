@@ -50,6 +50,7 @@ def test():
     val_loader = build_val_loader()
     criterion = nn.CrossEntropyLoss()
 
+    model = torch.compile(model)
     model.eval()
     total_samples = 0
     total_loss = 0.0
@@ -104,12 +105,13 @@ def inference(model):
         model = f2hnet_base(num_classes=1000)
     else:
         return
-    model.eval()
     model.cuda()
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
+    model = torch.compile(model)
     model.to(memory_format=torch.channels_last)
 
+    model.eval()
     data_loader = []
     img = torch.randn(64, 3,224, 224, dtype=torch.float32)  # (B,3,H,W)
     label = torch.randn(64, 1000, dtype=torch.float32)  # (B,num_cls)
