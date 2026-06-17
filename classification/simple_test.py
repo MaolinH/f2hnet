@@ -106,10 +106,12 @@ def inference(model):
     else:
         return
     model.cuda()
+    # 如果你使用的是Ampere(安培)架构或者更新的GPUs设备,我们建议你开启以下设置测试吞吐量
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
     model = torch.compile(model)
     model.to(memory_format=torch.channels_last)
+    # ----------------------------------------------------------------------------
 
     model.eval()
     data_loader = []
