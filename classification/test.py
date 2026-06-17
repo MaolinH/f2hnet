@@ -69,6 +69,7 @@ def test(config):
 
     model.cuda()
     model_without_ddp = model
+    model_without_ddp = torch.compile(model_without_ddp)
     model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[config.LOCAL_RANK], broadcast_buffers=False)
     model_without_ddp = model.module
 
