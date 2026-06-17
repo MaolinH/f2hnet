@@ -83,7 +83,7 @@ def test(config):
         sampler=sampler_val
     )
     criterion = torch.nn.CrossEntropyLoss()
-
+    
     model.eval()
 
     loss_meter = AverageMeter()
@@ -115,12 +115,14 @@ def test(config):
 
 @torch.no_grad()
 def throughput(config):
-    # 可以通过github获取对比模型代码，并修改下一行定义你需要测试的模型
     model = build_model(config)
     model.cuda()
+    # 如果你使用的是Ampere(安培)架构或者更新的GPUs设备,我们建议你开启以下设置测试吞吐量
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
+    model = torch.compile(model)
     model.to(memory_format=torch.channels_last)
+    # ----------------------------------------------------------------------------
     model.eval()
     dataset_val, _ = build_dataset(is_train=False, config=config)
     sampler_val = torch.utils.data.distributed.DistributedSampler(dataset_val, shuffle=False)
