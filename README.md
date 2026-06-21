@@ -9,9 +9,9 @@
  In the "Infer" column, 1784(3298) represents different testing methods that they respectively reference early methods (e.g., Swin) and modern approaches (e.g., InceptionNeXt).
 | Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Acc.1(%) |Acc.5(%)| train log                               | checkpoint| 
 |:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:------:| --------------------------------------- |:------:|
-| F2HNet-T | 30        | 4.8      | 588          | 1784(3298)   | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |[ckpt.pth](https://drive.google.com/file/d/18242jBKFYAXDBDswI1a2zRjQpN6IB1UZ/view?usp=drive_link)|
-| F2HNet-S | 45        | 9.1      | 315          | 912(1644)    | 84.6     |97.0    | [log](ckpts/cls/Small/F2HNet-Small.txt) |[ckpt.pth](https://drive.google.com/file/d/114TuwvzpQkEtSc0ixUUOeXpXFoJHIx36/view?usp=drive_link)|
-| F2HNet-B | 77        | 15.2     | 222          | 648(1132)    | 85.1     |97.3   | [log](ckpts/cls/Base/F2HNet-Base.txt)   |[ckpt.pth](https://drive.google.com/file/d/1ALaM3D7-lUoNsh_CFtw4ybW_l4fivnBn/view?usp=drive_link)|
+| F2HNet-T | 30        | 4.8      | 588          | 3298         | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |[ckpt.pth](https://drive.google.com/file/d/18242jBKFYAXDBDswI1a2zRjQpN6IB1UZ/view?usp=drive_link)|
+| F2HNet-S | 45        | 9.1      | 315          | 1644         | 84.6     |97.0    | [log](ckpts/cls/Small/F2HNet-Small.txt) |[ckpt.pth](https://drive.google.com/file/d/114TuwvzpQkEtSc0ixUUOeXpXFoJHIx36/view?usp=drive_link)|
+| F2HNet-B | 77        | 15.2     | 222          | 1132         | 85.1     |97.3   | [log](ckpts/cls/Base/F2HNet-Base.txt)   |[ckpt.pth](https://drive.google.com/file/d/1ALaM3D7-lUoNsh_CFtw4ybW_l4fivnBn/view?usp=drive_link)|
 
 ## Object Detection with Mask RCNN on COCO 2017
 
@@ -24,11 +24,11 @@
 
 ## Semantic Sementation with UperNet 160K on ADE20K
 
-| Backbone | #Param(M) | FLOPs(G) | mIoU | MS mIoU | Train log                                                                              |checkpoint|
-| -------- |:---------:|:--------:|:----:|:-------:| -------------------------------------------------------------------------------------- |----------|
-| F2HNet-T | 59        | 955      | 47.6 | 48.8    | [log](./ckpts/seg/Tiny/f2hnet_tiny_inik_upernet_160k_ade20k_512x512/Train_log/log.log) |[ckpt.pth](https://drive.google.com/file/d/19IXrag2ydRXBxNyxt_nNTGQVI6fIK3vW/view?usp=drive_link) |
-| F2HNet-S | 74        | 1054     | 49.2 | 50.1    | [log](ckpts/seg/Small/f2hnet_small_inik_upernet_160k_ade20k_512x512/Train_log/log.log) |[ckpt.pth](https://drive.google.com/file/d/11XIO8wtl-L9aRaworMbutkn9yl1coi6X/view?usp=drive_link) |
-| F2HNet-B | 108       | 1196     | 49.6 | 50.8    | [log](ckpts/seg/Base/f2hnet_base_inik_upernet_160k_ade20k_512x512/Train_log/log.log)   |[ckpt.pth](https://drive.google.com/file/d/1ZZWL4KHcOoAurqByzITucMNo9MfWpcUR/view?usp=drive_link) |
+| Backbone | #Param(M) | FLOPs(G) |FPS | mIoU | MS mIoU | Train log                                                                              |checkpoint|
+| -------- |:---------:|:--------:|:--:|:----:|:-------:| -------------------------------------------------------------------------------------- |----------|
+| F2HNet-T | 59        | 955      |23.3| 47.6 | 48.8    | [log](./ckpts/seg/Tiny/f2hnet_tiny_inik_upernet_160k_ade20k_512x512/Train_log/log.log) |[ckpt.pth](https://drive.google.com/file/d/19IXrag2ydRXBxNyxt_nNTGQVI6fIK3vW/view?usp=drive_link) |
+| F2HNet-S | 74        | 1054     |18.1| 49.2 | 50.1    | [log](ckpts/seg/Small/f2hnet_small_inik_upernet_160k_ade20k_512x512/Train_log/log.log) |[ckpt.pth](https://drive.google.com/file/d/11XIO8wtl-L9aRaworMbutkn9yl1coi6X/view?usp=drive_link) |
+| F2HNet-B | 108       | 1196     |14.9| 49.6 | 50.8    | [log](ckpts/seg/Base/f2hnet_base_inik_upernet_160k_ade20k_512x512/Train_log/log.log)   |[ckpt.pth](https://drive.google.com/file/d/1ZZWL4KHcOoAurqByzITucMNo9MfWpcUR/view?usp=drive_link) |
 
 ## Robustness
 The evaluation metric for IK/A/R/Sketch/V2 is Top-1 Accuracy(%), and the metric for C is mCE(%).
