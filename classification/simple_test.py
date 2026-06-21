@@ -131,7 +131,7 @@ def inference(model):
         torch.cuda.synchronize()
         tic2 = time.time()
         print(f"batch_size-64 throughput: {30 * 64 / (tic2 - tic1)}")
-        return 30 * 64 / (tic2 - tic1)
+    return 30 * 64 / (tic2 - tic1)
 
 def train_throughput(optimizer=None, criterion=None):
     if Config.model_name == 'f2hnet_t':
