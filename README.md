@@ -6,7 +6,6 @@
 
 ## Classification on ImageNet-1K  
  The throughputs are measured on single RTX 4090 24G GPU (PyTorch 2.5.1 and CUDA 12.4) with TF32 (TensorFloat-32), and the batch size is set to 64.
- In the "Infer" column, 1784(3298) represents different testing methods that they respectively reference early methods (e.g., Swin) and modern approaches (e.g., InceptionNeXt).
 | Variants | #Param(M) | FLOPs(G) | Train(img/s) | Infer(img/s) | Acc.1(%) |Acc.5(%)| train log                               | checkpoint| 
 |:--------:|:---------:|:--------:|:------------:|:------------:|:--------:|:------:| --------------------------------------- |:------:|
 | F2HNet-T | 30        | 4.8      | 588          | 3298         | 83.5     |96.6    | [log](ckpts/cls/Tiny/F2HNet-Tiny.txt)   |[ckpt.pth](https://drive.google.com/file/d/18242jBKFYAXDBDswI1a2zRjQpN6IB1UZ/view?usp=drive_link)|
