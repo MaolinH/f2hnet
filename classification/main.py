@@ -90,7 +90,12 @@ def main(config):
     if hasattr(model, 'flops'):
         flops = model.flops()
     else:
-        flops = 0
+        try:
+            from thop import profile
+            flops,_ = profile(model, inputs=(torch.randn(1, 3,
+                                config.DATA.IMG_SIZE, config.DATA.IMG_SIZE),),verbose=False)
+        except ImportError:
+            flops = 'unscanned'
     if dist.get_rank() == 0:  # any sentense 'if dist.get_rank() == 0:' is to avert repeat writing or printing.
         logger.info(f"number of params: {n_parameters} "
                     f"number of FLOPs: {flops}")
