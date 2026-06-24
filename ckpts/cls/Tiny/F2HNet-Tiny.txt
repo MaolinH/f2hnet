@@ -1497,5 +1497,4 @@
 (main.py 161): INFO ########## Train epoch-300 weight_decay: 0.05 ema_decay: 0.99992 ##########
 (main.py 168): INFO -learning rate:0.0000100 -train_acc1:70.702 -grad_norm:inf
 (main.py 179): INFO --> Val results: ♣acc1:83.310 ♣acc5:96.356 ♣loss:0.8096 ♠best_acc1:83.3 ♠best_acc5:96.5
-(main.py 213): INFO Training time 2 days, 22:47:42
 (main.py 195): INFO --> Ema val results: ♦ema_acc1:83.394 ♦ema_acc5:96.418 ♦ema_loss:0.8142 ❤best_ema_acc1:83.5 ❤best_ema_acc5:96.6
